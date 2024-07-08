@@ -4,7 +4,7 @@ A curated list of awesome resources, templates, and guides for developers, digit
 
 ## Cooking and Recipes
 - [Based.cooking - Luke Smith ✨](https://github.com/lukesmithxyz/based.cooking)
-- [Grimgrains (HTML vault) - Hundredrabbits ✨](https://github.com/hundredrabbits/Grimgrains
+- [Grimgrains (HTML vault) - Hundredrabbits ✨](https://github.com/hundredrabbits/Grimgrains)
 - [Recetas Cocina (spanish) - Obsidian PKM Vault ✨](https://github.com/obsidian-pkm-vault/recetas-cocina)
 - [DevCookbook - Microsoft](https://github.com/microsoft/DevCookbook/)
 - [HowToCook (chinese) - Anduin2017](https://github.com/Anduin2017/HowToCook)
