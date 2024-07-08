@@ -4,6 +4,7 @@ A curated list of awesome resources, templates, and guides for developers, digit
 
 ## Cooking and Recipes
 - [Based.cooking - Luke Smith ✨](https://github.com/lukesmithxyz/based.cooking)
+- [Grimgrains (HTML vault) - Hundredrabbits ✨](https://github.com/hundredrabbits/Grimgrains
 - [Recetas Cocina (spanish) - Obsidian PKM Vault ✨](https://github.com/obsidian-pkm-vault/recetas-cocina)
 - [DevCookbook - Microsoft](https://github.com/microsoft/DevCookbook/)
 - [HowToCook (chinese) - Anduin2017](https://github.com/Anduin2017/HowToCook)
@@ -16,15 +17,15 @@ A curated list of awesome resources, templates, and guides for developers, digit
 - [OSSU Computer Science](https://github.com/ossu/computer-science)
 - [Learning Notes - keyvanakbary](https://github.com/keyvanakbary/learning-notes)
 - [Computer Guides - mayfrost](https://github.com/mayfrost/guides/tree/master)
-- [JavaScript Info (EN) - javascript-tutorial ✨ ](https://github.com//en.javascript.info)
-- [JavaScript Info (ES) - javascript-tutorial](https://github.com/javascript-tutorial/es.javascript.info)
-- [JavaScript Info (RU) - javascript-tutorial](https://github.com/javascript-tutorial/ru.javascript.info)
-- [JavaScript Info (ZH) - javascript-tutorial](https://github.com/javascript-tutorial/zh.javascript.info)
+- [JavaScript Info (EN) - Javascript-tutorial ✨ ](https://github.com//en.javascript.info)
+- [JavaScript Info (ES) - Javascript-tutorial](https://github.com/javascript-tutorial/es.javascript.info)
+- [JavaScript Info (RU) - Javascript-tutorial](https://github.com/javascript-tutorial/ru.javascript.info)
+- [JavaScript Info (ZH) - Javascript-tutorial](https://github.com/javascript-tutorial/zh.javascript.info)
 
 ### System Design and Development
 - [System Design 101 - ByteByteGoHq](https://github.com/ByteByteGoHq/system-design-101)
 - [dotnet API Docs](https://github.com/dotnet/dotnet-api-docs)
-- [SQL Docs - MicrosoftDocs](https://github.com/MicrosoftDocs/sql-docs)
+- [SQL Docs - Microsoft Docs](https://github.com/MicrosoftDocs/sql-docs)
 
 ## Digital Gardens + templates
 - [Obsidian Vault Template - CyanVoxel](https://github.com/CyanVoxel/Obsidian-Vault-Template)
@@ -51,8 +52,7 @@ A curated list of awesome resources, templates, and guides for developers, digit
 
 > Not Obsidian vaults per se, but good to download
 
-
-## Dictionaries and Language Resources ()
+## Dictionaries and Language Resources
 - [SLOB Dictionaries - itkach](https://github.com/itkach/slob/wiki/Dictionaries)
 - [Content in All Languages](https://wiki.kiwix.org/wiki/Content_in_all_languages)
 - [Kiwix Library](https://library.kiwix.org/#lang=eng)
