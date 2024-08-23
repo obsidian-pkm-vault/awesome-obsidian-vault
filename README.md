@@ -77,5 +77,10 @@ MD Template:
 - [Anki Shared Decks](https://ankiweb.net/shared/decks/)
 - [Cheatsheets - rstacruz](https://github.com/rstacruz/cheatsheets)
 
+## List of Showcases (not categorized)
+- [Quartz - Showcases](https://quartz.jzhao.xyz/showcase)
+- [Obsidian Digital garden - Showcases](https://github.com/oleeskild/obsidian-digital-garden/issues/55)
+
+
 
 Feel free to explore and contribute to these awesome resources!
