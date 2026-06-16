@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets).
 
-## Table of vault + website classified by topics (48)
+## Table of vault + website classified by topics (49)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -32,6 +32,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 | Computer Science | Computer Guides — mayfrost                | [vault](https://github.com/mayfrost/guides/tree/master)                      | N/A                                                                                    |   |
 | Computer Science | OSSU Computer Science                     | [vault](https://github.com/ossu/computer-science)                            | N/A                                                                                    |   |
 | Computer Science | Learning Notes — keyvanakbary             | [vault](https://github.com/keyvanakbary/learning-notes)                      | [web](https://keyvanakbary.github.io/learning-notes/)                                  |   |
+| Content Creation | XHS Obsidian Workflow Starter — Ronnie2025 | [vault](https://github.com/Ronnie2025/xhs-obsidian-workflow-starter)         | N/A                                                                                    |   |
 | Cosmology        | Wikiterra Vault                           | [vault](https://github.com/Wikiterra/wikiterra-vault)                        | [web](https://wikiterra.github.io/)                                                    |   |
 | Dev & Design     | Awesome Agent Skills — VoltAgent          | [vault](https://github.com/VoltAgent/awesome-agent-skills)                   | [web](https://officialskills.sh/)                                                      |   |
 | Dev & Design     | skills — Vercel labs                      | [vault](https://github.com/vercel-labs/skills)                               | [web](https://www.skills.sh/)                                                          |   |
