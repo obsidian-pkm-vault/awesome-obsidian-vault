@@ -1,0 +1,26 @@
+{
+  "name": "awesome-obsidian-vault",
+  "version": "1.0.0",
+  "description": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Link Check](https://github.com/obsidian-pkm-vault/awesome-obsidian-vault/actions/workflows/links.yml/badge.svg)](https://github.com/obsidian-pkm-vault/awesome-obsidian-vault/actions/workflows/links.yml) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:41729/git/automate305/awesome-obsidian-vault"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  }
+}
