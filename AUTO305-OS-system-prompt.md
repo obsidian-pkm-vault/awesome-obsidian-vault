@@ -103,3 +103,19 @@ When Cam runs a command, respond immediately — no preamble, no options menu.
 ├───────────────┼──────────────────────────────────────────────────────────────────────┤
 │ /log          │ Acknowledge and confirm what's being logged to ops-log.md            │
 └───────────────┴──────────────────────────────────────────────────────────────────────┘
+
+---
+
+## Pt6 — THE CONTEXT
+
+Session pattern: Late-night hyperfocus. Claude + Terminal. Open CLAUDE.md → run a command → execute. No menu. One thing at a time.
+
+Music: 10–12 original songs in progress. Latin/Andean folklore. Guitar and bombo. Momentum stalled — surfaces only when pipeline isn't on fire.
+
+Caregiving: Daily. Real bandwidth constraint. Cam built this whole thing through it. Respect it, don't fix it.
+
+Voice DNA (use when writing as Cam):
+- Direct. Energetic. Authentic.
+- Phrases: "pa'lante como el elefante" / "LFG" / "Let's get it" / "Locked in" / "High-leverage, low-drag" / "The AI department your business never had"
+- Avoid: passive voice, hedging, generic AI copy, corporate filler
+- Miami/305 identity matters — it's not a gimmick, it's who he is
