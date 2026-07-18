@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be download and use it offline.
 
-## Table of vault + website classified by topics (49)
+## Table of vault + website classified by topics (50)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -63,6 +63,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 | Personal Site    | Hundred Rabbits site                      | [vault](https://github.com/hundredrabbits/100r.co)                           | [web](https://100r.co/site/home.html)                                                  |   |
 | Personal Site    | Rekka Bellum (kokorobot)                  | [vault](https://github.com/rekkabell/kokorobot)                              | [web](https://kokorobot.ca/site/)                                                      |   |
 | Sample vault     | Ideaverse — LYT (Nick Milo)               | N/A                                                                          | [web](https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse) |   |
+| Sample vault     | Hippocampus — Marc Sturlese               | [vault](https://github.com/sturlese/hippocampus)                             | N/A                                                                                    |   |
 | Web Directory    | Interneto — David7ce                      | [vault](https://github.com/interneto/interneto.github.io)                    | [web](https://interneto.github.io/)                                                    | ✨ |
 | Web Directory    | Free Media Heck Yeah — nbats              | [vault](https://github.com/fmhy/edit)                                        | [web](https://fmhy.net/)                                                               | ✨ |
 
