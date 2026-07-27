@@ -9,6 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be download and use it offline.
 
+<!--
 <style>
   .vault-table {
     border-collapse: collapse;
@@ -51,6 +52,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
     border-top: 2px solid #d0d7de;
   }
 </style>
+-->
 
 ## Vaults and websites grouped by topic (49)
 
