@@ -54,7 +54,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 </style>
 -->
 
-## Vaults and websites grouped by topic (49)
+## Vaults and websites grouped by topic (50)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -157,11 +157,12 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="1" class="category-cell">Sample Vaults &amp; Templates</th>
+      <th rowspan="2" class="category-cell">Sample Vaults &amp; Templates</th>
       <td>Ideaverse — LYT (Nick Milo)</td>
       <td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td>
       <td></td>
     </tr>
+    <tr><td>Second Brain Starter — secondbrainstarter</td><td><a href="https://github.com/secondbrainstarter/second-brain-starter">vault</a> / <a href="https://secondbrainstarter.github.io/">web</a></td><td></td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
