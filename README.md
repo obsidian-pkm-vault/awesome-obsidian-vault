@@ -112,9 +112,9 @@ A curated list of awesome resources, templates, guides for developers, digital g
     <tr><td>Giallozafferano (Recipe site)</td><td><a href="https://www.giallozafferano.com/">web</a></td><td></td></tr>
     <tr><td>Grimgrains — Hundredrabbits</td><td><a href="https://github.com/hundredrabbits/Grimgrains">vault</a> / <a href="https://grimgrains.com/site/home.html">web</a></td><td>✨</td></tr>
     <tr><td>HowToCook (Chinese) — Anduin2017</td><td><a href="https://github.com/Anduin2017/HowToCook">vault</a> / <a href="https://howtocook.aiursoft.com/">web</a></td><td></td></tr>
-    <tr><td>Recipes as JSON — Dpapathanasiou</td><td><a href="https://github.com/dpapathanasiou/recipes">vault</a></td><td>✨</td></tr>
     <tr><td>Recetas Cocina (Dataset) — Frorozcol</td><td><a href="https://huggingface.co/datasets/Frorozcol/recetas-cocina">vault</a></td><td>✨</td></tr>
     <tr><td>Recetas de Cocina — Obsidian PKM Vault</td><td><a href="https://github.com/obsidian-pkm-vault/recetas-cocina">vault</a> / <a href="https://obsidian-pkm-vault.github.io/recetas-cocina/">web</a></td><td>✨</td></tr>
+    <tr><td>Recipes as JSON — Dpapathanasiou</td><td><a href="https://github.com/dpapathanasiou/recipes">vault</a></td><td>✨</td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
@@ -143,18 +143,18 @@ A curated list of awesome resources, templates, guides for developers, digital g
       <td><a href="https://github.com/VoltAgent/awesome-agent-skills">vault</a> / <a href="https://officialskills.sh/">web</a></td>
       <td></td>
     </tr>
-    <tr><td>CyberChef — GCHQ</td><td><a href="https://github.com/gchq/CyberChef">vault</a> / <a href="https://gchq.github.io/CyberChef/">web</a></td><td></td></tr>
-    <tr><td>Dotnet API Docs</td><td><a href="https://github.com/dotnet/dotnet-api-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/dotnet/api/">web</a></td><td></td></tr>
-    <tr><td>Skills — Vercel labs</td><td><a href="https://github.com/vercel-labs/skills">vault</a> / <a href="https://www.skills.sh/">web</a></td><td></td></tr>
-    <tr><td>SQL Docs — MicrosoftDocs</td><td><a href="https://github.com/MicrosoftDocs/sql-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver17">web</a></td><td></td></tr>
-    <tr><td>System Design 101 — ByteByteGoHq</td><td><a href="https://github.com/ByteByteGoHq/system-design-101">vault</a> / <a href="https://bytebytego.com/guides/">web</a></td><td></td></tr>
-    <tr><td>Computing notes — Noodleslove</td><td><a href="https://github.com/noodleslove/notes">vault</a></td><td></td></tr>
     <tr><td>Computer Guides — mayfrost</td><td><a href="https://github.com/mayfrost/guides/tree/master">vault</a></td><td></td></tr>
+    <tr><td>Computing notes — Noodleslove</td><td><a href="https://github.com/noodleslove/notes">vault</a></td><td></td></tr>
     <tr><td>CS Notes — xy-241</td><td><a href="https://github.com/xy-241/CS-Notes">vault</a> / <a href="https://notes.yxy.ninja/">web</a></td><td></td></tr>
+    <tr><td>CyberChef — GCHQ</td><td><a href="https://github.com/gchq/CyberChef">vault</a> / <a href="https://gchq.github.io/CyberChef/">web</a></td><td></td></tr>
+    <tr><td>Data Engineering Wiki</td><td><a href="https://github.com/data-engineering-community/data-engineering-wiki">vault</a> / <a href="https://dataengineering.wiki/Index">web</a></td><td></td></tr>
+    <tr><td>Dotnet API Docs</td><td><a href="https://github.com/dotnet/dotnet-api-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/dotnet/api/">web</a></td><td></td></tr>
     <tr><td>JavaScript Info (EN)</td><td><a href="https://github.com/javascript-tutorial/en.javascript.info">vault</a> / <a href="https://javascript.info/">web</a></td><td></td></tr>
     <tr><td>Learning Notes — Keyvanakbary</td><td><a href="https://github.com/keyvanakbary/learning-notes">vault</a> / <a href="https://keyvanakbary.github.io/learning-notes/">web</a></td><td></td></tr>
     <tr><td>OSSU Computer Science</td><td><a href="https://github.com/ossu/computer-science">vault</a></td><td></td></tr>
-    <tr><td>Data Engineering Wiki</td><td><a href="https://github.com/data-engineering-community/data-engineering-wiki">vault</a> / <a href="https://dataengineering.wiki/Index">web</a></td><td></td></tr>
+    <tr><td>Skills — Vercel labs</td><td><a href="https://github.com/vercel-labs/skills">vault</a> / <a href="https://www.skills.sh/">web</a></td><td></td></tr>
+    <tr><td>SQL Docs — MicrosoftDocs</td><td><a href="https://github.com/MicrosoftDocs/sql-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver17">web</a></td><td></td></tr>
+    <tr><td>System Design 101 — ByteByteGoHq</td><td><a href="https://github.com/ByteByteGoHq/system-design-101">vault</a> / <a href="https://bytebytego.com/guides/">web</a></td><td></td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
@@ -177,11 +177,11 @@ A curated list of awesome resources, templates, guides for developers, digital g
   <tbody>
     <tr class="section-row">
       <th rowspan="2" class="category-cell">Web Directories &amp; Media</th>
-      <td>Interneto — David7ce</td>
-      <td><a href="https://github.com/interneto/interneto.github.io">vault</a> / <a href="https://interneto.github.io/">web</a></td>
+      <td>Free Media Heck Yeah — nbats</td>
+      <td><a href="https://github.com/fmhy/edit">vault</a> / <a href="https://fmhy.net/">web</a></td>
       <td>✨</td>
     </tr>
-    <tr><td>Free Media Heck Yeah — nbats</td><td><a href="https://github.com/fmhy/edit">vault</a> / <a href="https://fmhy.net/">web</a></td><td>✨</td></tr>
+    <tr><td>Interneto — David7ce</td><td><a href="https://github.com/interneto/interneto.github.io">vault</a> / <a href="https://interneto.github.io/">web</a></td><td>✨</td></tr>
   </tbody>
 </table>
 
