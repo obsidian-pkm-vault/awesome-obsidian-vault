@@ -54,7 +54,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 </style>
 -->
 
-## Vaults and websites grouped by topic (51)
+## Vaults and websites grouped by topic (52)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -118,12 +118,13 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="2" class="category-cell">Knowledge Bases &amp; Wiki Vaults</th>
+      <th rowspan="3" class="category-cell">Knowledge Bases &amp; Wiki Vaults</th>
       <td>KaaS — Jimbrig</td>
       <td><a href="https://github.com/jimbrig/KaaS">vault</a> / <a href="https://kaas.jimbrig.com/">web</a></td>
       <td></td>
     </tr>
     <tr><td>Knowledge — Nikitavoloboev</td><td><a href="https://github.com/nikitavoloboev/knowledge">vault</a> / <a href="https://nikiv.dev/">web</a></td><td></td></tr>
+    <tr><td>Yangming Mind OS — sunhaoyu-sawma</td><td><a href="https://github.com/sunhaoyu-sawma/Yangming-Mind-OS">vault</a> / <a href="https://sunhaoyu-sawma.github.io/Yangming-Mind-OS/">web</a></td><td></td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
