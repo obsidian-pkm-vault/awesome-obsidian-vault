@@ -187,7 +187,9 @@ A curated list of awesome resources, templates, guides for developers, digital g
 
 ---
 
-## Resources (9)
+## Resources
+
+- [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes, tasks and AI chat. Plain markdown files, no accounts, no cloud. MIT. (9)
 
 ## Encyclopedia Resources (5)
 
