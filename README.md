@@ -54,7 +54,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 </style>
 -->
 
-## Vaults and websites grouped by topic (52)
+## Vaults and websites grouped by topic (53)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -168,11 +168,12 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="1" class="category-cell">Science &amp; Research</th>
-      <td>Wikiterra Vault</td>
-      <td><a href="https://github.com/Wikiterra/wikiterra-vault">vault</a> / <a href="https://wikiterra.github.io/">web</a></td>
+      <th rowspan="2" class="category-cell">Science &amp; Research</th>
+      <td>Graph Notes — michaelroust254</td>
+      <td><a href="https://github.com/michaelroust254/graph-notes">vault</a></td>
       <td></td>
     </tr>
+    <tr><td>Wikiterra Vault</td><td><a href="https://github.com/Wikiterra/wikiterra-vault">vault</a> / <a href="https://wikiterra.github.io/">web</a></td><td></td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
