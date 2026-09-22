@@ -162,8 +162,6 @@ A curated list of awesome resources, templates, guides for developers, digital g
       <td>Claude Code Second Brain — The Niche Society</td>
       <td><a href="https://github.com/Eduard22222222/claude-code-second-brain">vault</a></td>
       <td></td>
-      <td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td>
-      <td></td>
     </tr>
     <tr><td>Ideaverse — LYT (Nick Milo)</td><td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td><td></td></tr>
     <tr><td>Second Brain Starter — secondbrainstarter</td><td><a href="https://github.com/secondbrainstarter/second-brain-starter">vault</a> / <a href="https://secondbrainstarter.github.io/">web</a></td><td></td></tr>
