@@ -54,7 +54,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 </style>
 -->
 
-## Vaults and websites grouped by topic (53)
+## Vaults and websites grouped by topic (54)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -158,11 +158,14 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="4" class="category-cell">Sample Vaults &amp; Templates</th>
-      <td>Ideaverse — LYT (Nick Milo)</td>
+      <th rowspan="5" class="category-cell">Sample Vaults &amp; Templates</th>
+      <td>Claude Code Second Brain — The Niche Society</td>
+      <td><a href="https://github.com/Eduard22222222/claude-code-second-brain">vault</a></td>
+      <td></td>
       <td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td>
       <td></td>
     </tr>
+    <tr><td>Ideaverse — LYT (Nick Milo)</td><td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td><td></td></tr>
     <tr><td>Second Brain Starter — secondbrainstarter</td><td><a href="https://github.com/secondbrainstarter/second-brain-starter">vault</a> / <a href="https://secondbrainstarter.github.io/">web</a></td><td></td></tr>
     <tr><td>Self-Knowledge Vault — Tanudai</td><td><a href="https://github.com/tanudai/obsidian-self-knowledge-vault">vault</a> / <a href="https://astrodai.in/obsidian/">web</a></td><td></td></tr>
     <tr><td>Undercroft — Latticework Labs</td><td><a href="https://github.com/latticeworklabs-eng/undercroft">vault</a></td><td></td></tr>
