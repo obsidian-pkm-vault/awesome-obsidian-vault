@@ -97,14 +97,6 @@
   },
   {
     "category": "Documentation & Knowledge",
-    "name": "Intersect",
-    "author": "rknightuk",
-    "vault": "https://github.com/rknightuk/intersect",
-    "web": "https://intersect.rknight.me/",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
     "name": "Kepano Obsidian",
     "author": null,
     "vault": "https://github.com/kepano/kepano-obsidian",
@@ -422,5 +414,21 @@
     "vault": "https://github.com/interneto/interneto.github.io",
     "web": "https://interneto.github.io/",
     "star": true
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "Podcast Wiki",
+    "author": "HagaiHen",
+    "vault": "https://github.com/HagaiHen/podcast-wiki",
+    "web": "https://hagaihen.github.io/podcast-wiki/",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Self-Knowledge Vault",
+    "author": "Tanudai",
+    "vault": "https://github.com/tanudai/obsidian-self-knowledge-vault",
+    "web": "https://astrodai.in/obsidian/",
+    "star": false
   }
 ]

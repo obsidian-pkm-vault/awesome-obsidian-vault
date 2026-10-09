@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic (53)
+## Vaults and websites grouped by topic (54)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -29,7 +29,6 @@ A curated list of awesome resources, templates, guides for developers, digital g
 | Documentation & Knowledge | Digital Garden Docs — oleeskild | [vault](https://github.com/oleeskild/digitalgardendocs) / [web](https://dg-docs.ole.dev/) |  |
 | Documentation & Knowledge | Documentation — Rico Sta. Cruz | [vault](https://github.com/rstacruz/cheatsheets/tree/master#documentation) / [web](https://devhints.io/) |  |
 | Documentation & Knowledge | Gatekeeperwiki Game — Gravity Lagoon | [vault](https://github.com/Mondrethos/gatekeeperwiki) / [web](https://www.gatekeeper.wiki/) |  |
-| Documentation & Knowledge | Intersect — rknightuk | [vault](https://github.com/rknightuk/intersect) / [web](https://intersect.rknight.me/) |  |
 | Documentation & Knowledge | Kepano Obsidian | [vault](https://github.com/kepano/kepano-obsidian) / [web](https://stephango.com/vault) | ✨ |
 | Documentation & Knowledge | Obsidian Hub | [vault](https://github.com/obsidian-community/obsidian-hub) / [web](https://publish.obsidian.md/hub/00+-+Start+here) | ✨ |
 | Documentation & Knowledge | Obsidian Icewind — Shervinsahba | [vault](https://github.com/shervinsahba/obsidian-icewind) / [web](https://icewind.quest/) | ✨ |
@@ -47,6 +46,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 | Knowledge Bases & Wiki Vaults | KaaS — Jimbrig | [vault](https://github.com/jimbrig/KaaS) / [web](https://kaas.jimbrig.com/) |  |
 | Knowledge Bases & Wiki Vaults | Knowledge — Nikitavoloboev | [vault](https://github.com/nikitavoloboev/knowledge) / [web](https://nikiv.dev/) |  |
 | Knowledge Bases & Wiki Vaults | Ontology Engineering Curriculum — fabio-rovai | [vault](https://github.com/fabio-rovai/ontology-curriculum/tree/main/vault) |  |
+| Knowledge Bases & Wiki Vaults | Podcast Wiki — HagaiHen | [vault](https://github.com/HagaiHen/podcast-wiki) / [web](https://hagaihen.github.io/podcast-wiki/) |  |
 | Knowledge Bases & Wiki Vaults | Yangming Mind OS — sunhaoyu-sawma | [vault](https://github.com/sunhaoyu-sawma/Yangming-Mind-OS) / [web](https://sunhaoyu-sawma.github.io/Yangming-Mind-OS/) |  |
 | Personal Websites & Indie Web | Devine Lu Linvega (oscean) | [vault](https://github.com/XXIIVV/oscean) / [web](https://wiki.xxiivv.com/site/home.html) |  |
 | Personal Websites & Indie Web | Hundred Rabbits site | [vault](https://github.com/hundredrabbits/100r.co) / [web](https://100r.co/site/home.html) |  |
@@ -66,6 +66,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 | Programming & Software | System Design 101 — ByteByteGoHq | [vault](https://github.com/ByteByteGoHq/system-design-101) / [web](https://bytebytego.com/guides/) |  |
 | Sample Vaults & Templates | Ideaverse — LYT (Nick Milo) | [web](https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse) |  |
 | Sample Vaults & Templates | Second Brain Starter — secondbrainstarter | [vault](https://github.com/secondbrainstarter/second-brain-starter) / [web](https://secondbrainstarter.github.io/) |  |
+| Sample Vaults & Templates | Self-Knowledge Vault — Tanudai | [vault](https://github.com/tanudai/obsidian-self-knowledge-vault) / [web](https://astrodai.in/obsidian/) |  |
 | Sample Vaults & Templates | Undercroft — Latticework Labs | [vault](https://github.com/latticeworklabs-eng/undercroft) |  |
 | Science & Research | Wikiterra Vault | [vault](https://github.com/Wikiterra/wikiterra-vault) / [web](https://wikiterra.github.io/) |  |
 | Web Directories & Media | Free Media Heck Yeah — nbats | [vault](https://github.com/fmhy/edit) / [web](https://fmhy.net/) | ✨ |
