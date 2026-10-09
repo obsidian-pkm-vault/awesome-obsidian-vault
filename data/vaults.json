@@ -233,6 +233,14 @@
   },
   {
     "category": "Knowledge Bases & Wiki Vaults",
+    "name": "Podcast Wiki",
+    "author": "HagaiHen",
+    "vault": "https://github.com/HagaiHen/podcast-wiki",
+    "web": "https://hagaihen.github.io/podcast-wiki/",
+    "star": false
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
     "name": "Yangming Mind OS",
     "author": "sunhaoyu-sawma",
     "vault": "https://github.com/sunhaoyu-sawma/Yangming-Mind-OS",
@@ -385,6 +393,14 @@
   },
   {
     "category": "Sample Vaults & Templates",
+    "name": "Self-Knowledge Vault",
+    "author": "Tanudai",
+    "vault": "https://github.com/tanudai/obsidian-self-knowledge-vault",
+    "web": "https://astrodai.in/obsidian/",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
     "name": "Undercroft",
     "author": "Latticework Labs",
     "vault": "https://github.com/latticeworklabs-eng/undercroft",
@@ -414,21 +430,5 @@
     "vault": "https://github.com/interneto/interneto.github.io",
     "web": "https://interneto.github.io/",
     "star": true
-  },
-  {
-    "category": "Knowledge Bases & Wiki Vaults",
-    "name": "Podcast Wiki",
-    "author": "HagaiHen",
-    "vault": "https://github.com/HagaiHen/podcast-wiki",
-    "web": "https://hagaihen.github.io/podcast-wiki/",
-    "star": false
-  },
-  {
-    "category": "Sample Vaults & Templates",
-    "name": "Self-Knowledge Vault",
-    "author": "Tanudai",
-    "vault": "https://github.com/tanudai/obsidian-self-knowledge-vault",
-    "web": "https://astrodai.in/obsidian/",
-    "star": false
   }
 ]

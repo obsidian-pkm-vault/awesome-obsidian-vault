@@ -1,82 +1,5 @@
 [
   {
-    "category": "Encyclopedia Resources",
-    "name": "Kiwix Library",
-    "links": [
-      {
-        "label": "library",
-        "url": "https://library.kiwix.org/#lang=eng"
-      }
-    ],
-    "note": "wikis offline under .zim"
-  },
-  {
-    "category": "Encyclopedia Resources",
-    "name": "Project N.O.M.A.D.",
-    "links": [
-      {
-        "label": "vault",
-        "url": "https://github.com/crosstalk-solutions/project-nomad"
-      }
-    ],
-    "note": "Bundles Kiwix, a local AI assistant (Ollama + Qdrant), Kolibri courses, ProtoMaps, CyberChef, and FlatNotes."
-  },
-  {
-    "category": "Encyclopedia Resources",
-    "name": "Wikimedia Dumps",
-    "links": [
-      {
-        "label": "static HTML Dumps",
-        "url": "https://dumps.wikimedia.org/other/static_html_dumps/"
-      }
-    ],
-    "note": ""
-  },
-  {
-    "category": "Encyclopedia Resources",
-    "name": "Wikipedia from itkach",
-    "links": [
-      {
-        "label": "wiki",
-        "url": "https://github.com/itkach/slob/wiki/Wikipedia"
-      }
-    ],
-    "note": ""
-  },
-  {
-    "category": "Encyclopedia Resources",
-    "name": "Wikis and Dicts from itkach",
-    "links": [
-      {
-        "label": "wiki",
-        "url": "https://github.com/itkach/slob/wiki/Other-projects"
-      }
-    ],
-    "note": ""
-  },
-  {
-    "category": "Dictionaries and Language Resources",
-    "name": "Wiktionary and Wikibooks from itkach",
-    "links": [
-      {
-        "label": "wiki",
-        "url": "https://github.com/itkach/slob/wiki/Wiktionary-and-Wikibooks"
-      }
-    ],
-    "note": ""
-  },
-  {
-    "category": "Dictionaries and Language Resources",
-    "name": "Word Dictionaries (Wordnet and Freedict) from itkach",
-    "links": [
-      {
-        "label": "wiki",
-        "url": "https://github.com/itkach/slob/wiki/Word-dictionaries-(Wordnet-and-Freedict)"
-      }
-    ],
-    "note": ""
-  },
-  {
     "category": "Cheat Sheets and Miscellaneous",
     "name": "Anki Shared Decks",
     "links": [
@@ -84,8 +7,7 @@
         "label": "vault",
         "url": "https://ankiweb.net/shared/decks/"
       }
-    ],
-    "note": ""
+    ]
   },
   {
     "category": "Cheat Sheets and Miscellaneous",
@@ -95,7 +17,76 @@
         "label": "vault",
         "url": "https://github.com/rstacruz/cheatsheets"
       }
-    ],
-    "note": ""
+    ]
+  },
+  {
+    "category": "Dictionaries and Language Resources",
+    "name": "Wiktionary and Wikibooks from itkach",
+    "links": [
+      {
+        "label": "wiki",
+        "url": "https://github.com/itkach/slob/wiki/Wiktionary-and-Wikibooks"
+      }
+    ]
+  },
+  {
+    "category": "Dictionaries and Language Resources",
+    "name": "Word Dictionaries (Wordnet and Freedict) from itkach",
+    "links": [
+      {
+        "label": "wiki",
+        "url": "https://github.com/itkach/slob/wiki/Word-dictionaries-(Wordnet-and-Freedict)"
+      }
+    ]
+  },
+  {
+    "category": "Encyclopedia Resources",
+    "name": "Kiwix Library",
+    "links": [
+      {
+        "label": "library",
+        "url": "https://library.kiwix.org/#lang=eng"
+      }
+    ]
+  },
+  {
+    "category": "Encyclopedia Resources",
+    "name": "Project N.O.M.A.D.",
+    "links": [
+      {
+        "label": "vault",
+        "url": "https://github.com/crosstalk-solutions/project-nomad"
+      }
+    ]
+  },
+  {
+    "category": "Encyclopedia Resources",
+    "name": "Wikimedia Dumps",
+    "links": [
+      {
+        "label": "static HTML Dumps",
+        "url": "https://dumps.wikimedia.org/other/static_html_dumps/"
+      }
+    ]
+  },
+  {
+    "category": "Encyclopedia Resources",
+    "name": "Wikipedia from itkach",
+    "links": [
+      {
+        "label": "wiki",
+        "url": "https://github.com/itkach/slob/wiki/Wikipedia"
+      }
+    ]
+  },
+  {
+    "category": "Encyclopedia Resources",
+    "name": "Wikis and Dicts from itkach",
+    "links": [
+      {
+        "label": "wiki",
+        "url": "https://github.com/itkach/slob/wiki/Other-projects"
+      }
+    ]
   }
 ]

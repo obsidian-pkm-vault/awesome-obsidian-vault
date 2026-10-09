@@ -35,16 +35,29 @@ const VAULT_CATEGORY_ORDER = [
 ];
 
 const RESOURCE_CATEGORY_ORDER = [
-  "Encyclopedia Resources",
-  "Dictionaries and Language Resources",
   "Cheat Sheets and Miscellaneous",
+  "Dictionaries and Language Resources",
+  "Encyclopedia Resources",
 ];
 
-/** Escape text for a Markdown table cell. */
-function cell(text) {
+/** Escape HTML text content. */
+function esc(text) {
   return String(text ?? "")
-    .replace(/\r?\n/g, " ")
-    .replace(/\|/g, "\\|");
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+/** Escape HTML attribute value (quotes included). */
+function escAttr(text) {
+  return esc(text).replace(/"/g, "&quot;");
+}
+
+function vaultLinksCell(v) {
+  const parts = [];
+  if (v.vault) parts.push(`<a href="${escAttr(v.vault)}">vault</a>`);
+  if (v.web) parts.push(`<a href="${escAttr(v.web)}">web</a>`);
+  return parts.join(" / ");
 }
 
 function loadJson(path) {
@@ -79,7 +92,7 @@ function validateVaults(vaults) {
 
 function validateResources(resources) {
   for (const r of resources) {
-    for (const key of ["category", "name", "links", "note"]) {
+    for (const key of ["category", "name", "links"]) {
       if (!(key in r)) throw new Error(`resource entry missing ${key}: ${JSON.stringify(r)}`);
     }
     if (!RESOURCE_CATEGORY_ORDER.includes(r.category)) {
@@ -120,29 +133,64 @@ function vaultDisplay(v) {
 }
 
 function renderVaultTable(grouped) {
-  const lines = ["| Category | Name and author | Links | ★ |", "| --- | --- | --- | --- |"];
+  const lines = [
+    '<table class="vault-table">',
+    "  <thead>",
+    "    <tr>",
+    '      <th class="col-category">Category</th>',
+    '      <th class="col-name">Name and author</th>',
+    '      <th class="col-links">Links</th>',
+    '      <th class="col-star">★</th>',
+    "    </tr>",
+    "  </thead>",
+  ];
   for (const [cat, entries] of grouped) {
-    for (const v of entries) {
-      const links = [
-        v.vault ? `[vault](${v.vault})` : null,
-        v.web ? `[web](${v.web})` : null,
-      ]
-        .filter(Boolean)
-        .join(" / ");
-      lines.push(`| ${cell(cat)} | ${cell(vaultDisplay(v))} | ${links} | ${v.star ? "✨" : ""} |`);
+    lines.push("  <tbody>");
+    lines.push('    <tr class="section-row">');
+    lines.push(`      <th rowspan="${entries.length}" class="category-cell">${esc(cat)}</th>`);
+    lines.push(`      <td>${esc(vaultDisplay(entries[0]))}</td>`);
+    lines.push(`      <td>${vaultLinksCell(entries[0])}</td>`);
+    lines.push(`      <td>${entries[0].star ? "✨" : ""}</td>`);
+    lines.push("    </tr>");
+    for (const v of entries.slice(1)) {
+      lines.push(
+        `    <tr><td>${esc(vaultDisplay(v))}</td><td>${vaultLinksCell(v)}</td><td>${v.star ? "✨" : ""}</td></tr>`,
+      );
     }
+    lines.push("  </tbody>");
   }
+  lines.push("</table>");
   return lines.join("\n");
 }
 
+function resourceLinksCell(r) {
+  return r.links.map((l) => `<a href="${escAttr(l.url)}">${esc(l.label)}</a>`).join(" / ");
+}
+
 function renderResourceTable(grouped) {
-  const lines = ["| Category | Name | Links | Note |", "| --- | --- | --- | --- |"];
+  const lines = [
+    '<table class="vault-table">',
+    "  <thead>",
+    "    <tr>",
+    '      <th class="col-category">Category</th>',
+    '      <th class="col-name">Name</th>',
+    '      <th class="col-links">Links</th>',
+    "    </tr>",
+    "  </thead>",
+  ];
   for (const [cat, entries] of grouped) {
-    for (const r of entries) {
-      const links = r.links.map((l) => `[${l.label}](${l.url})`).join(" / ");
-      lines.push(`| ${cell(cat)} | ${cell(r.name)} | ${links} | ${cell(r.note)} |`);
+    lines.push("  <tbody>");
+    lines.push('    <tr class="section-row">');
+    lines.push(`      <th rowspan="${entries.length}" class="category-cell">${esc(cat)}</th>`);
+    lines.push(`      <td>${esc(entries[0].name)}</td>`);
+    lines.push(`      <td>${resourceLinksCell(entries[0])}</td>`);
+    lines.push("    </tr>");
+    for (const r of entries.slice(1)) {
+      lines.push(`    <tr><td>${esc(r.name)}</td><td>${resourceLinksCell(r)}</td></tr>`);
     }
+    lines.push("  </tbody>");
   }
+  lines.push("</table>");
   return lines.join("\n");
 }
 

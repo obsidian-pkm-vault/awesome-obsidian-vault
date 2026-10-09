@@ -5,12 +5,12 @@
 
 | File                   | Renders as                        | Section in `README.md`              |
 | ---------------------- | --------------------------------- | ----------------------------------- |
-| `vaults.json`          | Markdown table                    | Vaults and websites grouped by topic |
-| `resources.json`       | Markdown table                    | Resources                            |
+| `vaults.json`          | HTML table (`rowspan` per category) | Vaults and websites grouped by topic |
+| `resources.json`       | HTML table (`rowspan` per category) | Resources                            |
 | `showcases.json`       | Bullet list                       | List of Showcases                    |
 
-Counts in section headings and table ordering are computed by the script —
-never edit them by hand.
+Counts, `rowspan`s and ordering (A–Z within each category) are computed by
+the script — never edit them by hand.
 
 ## `vaults.json`
 
@@ -32,10 +32,9 @@ Array of entries with free-form link labels.
 
 | Field      | Required | Meaning                                              |
 | ---------- | -------- | ---------------------------------------------------- |
-| `category` | yes      | `Encyclopedia Resources`, `Dictionaries and Language Resources`, or `Cheat Sheets and Miscellaneous` |
+| `category` | yes      | `Cheat Sheets and Miscellaneous`, `Dictionaries and Language Resources`, or `Encyclopedia Resources` |
 | `name`     | yes      | Resource name                                        |
 | `links`    | yes      | Non-empty array of `{ "label", "url" }` (`vault`, `web`, `wiki`, `library`, …) |
-| `note`     | yes      | Short description, or `""`                          |
 
 ## `showcases.json`
 

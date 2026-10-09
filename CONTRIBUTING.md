@@ -62,13 +62,12 @@ Same flow, but the entry goes in `data/resources.json`:
 {
   "category": "Encyclopedia Resources",
   "name": "Kiwix Library",
-  "links": [{ "label": "library", "url": "https://library.kiwix.org/#lang=eng" }],
-  "note": "wikis offline under .zim"
+  "links": [{ "label": "library", "url": "https://library.kiwix.org/#lang=eng" }]
 }
 ```
 
 `links` keeps the original link labels (`vault`, `web`, `wiki`,
-`library`, …) and `note` holds a short description (or `""`).
+`library`, …).
 
 ## Adding a showcase
 
