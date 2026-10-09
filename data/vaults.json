@@ -1,0 +1,426 @@
+[
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Alexia Chen notes",
+    "author": "AlexiaChen",
+    "vault": "https://github.com/AlexiaChen/my-notes",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Digital Gardeners",
+    "author": "MaggieAppleton",
+    "vault": "https://github.com/MaggieAppleton/digital-gardeners",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Obsidian Digital Garden",
+    "author": "ThatOtherAndrew",
+    "vault": "https://github.com/ThatOtherAndrew/obsidian-digital-garden",
+    "web": "https://notes.thatother.dev/",
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Obsidian Templates",
+    "author": "Groepl",
+    "vault": "https://github.com/groepl/Obsidian-Templates",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Obsidian Templates",
+    "author": "Ykerus",
+    "vault": "https://github.com/ykerus/obsidian-templates",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Obsidian Vault Template",
+    "author": "CyanVoxel",
+    "vault": "https://github.com/CyanVoxel/Obsidian-Vault-Template",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Topobon",
+    "author": "Uroybd",
+    "vault": "https://github.com/uroybd/topobon",
+    "web": "https://hermitage.utsob.me/",
+    "star": true
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Blue Book",
+    "author": "lyz-code",
+    "vault": "https://github.com/lyz-code/blue-book",
+    "web": "https://lyz-code.github.io/blue-book/",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "DashboardPlusPlus",
+    "author": "TfTHacker",
+    "vault": "https://github.com/TfTHacker/DashboardPlusPlus",
+    "web": "https://tfthacker.com/DashboardPlusPLus",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Digital Garden Docs",
+    "author": "oleeskild",
+    "vault": "https://github.com/oleeskild/digitalgardendocs",
+    "web": "https://dg-docs.ole.dev/",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Documentation",
+    "author": "Rico Sta. Cruz",
+    "vault": "https://github.com/rstacruz/cheatsheets/tree/master#documentation",
+    "web": "https://devhints.io/",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Gatekeeperwiki Game",
+    "author": "Gravity Lagoon",
+    "vault": "https://github.com/Mondrethos/gatekeeperwiki",
+    "web": "https://www.gatekeeper.wiki/",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Intersect",
+    "author": "rknightuk",
+    "vault": "https://github.com/rknightuk/intersect",
+    "web": "https://intersect.rknight.me/",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Kepano Obsidian",
+    "author": null,
+    "vault": "https://github.com/kepano/kepano-obsidian",
+    "web": "https://stephango.com/vault",
+    "star": true
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Obsidian Hub",
+    "author": null,
+    "vault": "https://github.com/obsidian-community/obsidian-hub",
+    "web": "https://publish.obsidian.md/hub/00+-+Start+here",
+    "star": true
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Obsidian Icewind",
+    "author": "Shervinsahba",
+    "vault": "https://github.com/shervinsahba/obsidian-icewind",
+    "web": "https://icewind.quest/",
+    "star": true
+  },
+  {
+    "category": "Documentation & Knowledge",
+    "name": "Obsidian Tasks",
+    "author": "Obsidian Tasks Group",
+    "vault": "https://github.com/obsidian-tasks-group/obsidian-tasks",
+    "web": "https://publish.obsidian.md/tasks/",
+    "star": false
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Based.cooking",
+    "author": "Luke Smith",
+    "vault": "https://github.com/lukesmithxyz/based.cooking",
+    "web": "https://based.cooking/",
+    "star": true
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Chowdown",
+    "author": "Clarklab",
+    "vault": "https://github.com/clarklab/chowdown",
+    "web": "https://chowdown.io/",
+    "star": false
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Cookbook",
+    "author": "Douglaslassance",
+    "vault": "https://github.com/douglaslassance/cookbook",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "DevCookbook",
+    "author": "Microsoft",
+    "vault": "https://github.com/microsoft/DevCookbook/",
+    "web": "https://microsoft.github.io/DevCookbook/",
+    "star": false
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Giallozafferano (Recipe site)",
+    "author": null,
+    "vault": null,
+    "web": "https://www.giallozafferano.com/",
+    "star": false
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Grimgrains",
+    "author": "Hundredrabbits",
+    "vault": "https://github.com/hundredrabbits/Grimgrains",
+    "web": "https://grimgrains.com/site/home.html",
+    "star": true
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "HowToCook (Chinese)",
+    "author": "Anduin2017",
+    "vault": "https://github.com/Anduin2017/HowToCook",
+    "web": "https://howtocook.aiursoft.com/",
+    "star": false
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Recetas Cocina (Dataset)",
+    "author": "Frorozcol",
+    "vault": "https://huggingface.co/datasets/Frorozcol/recetas-cocina",
+    "web": null,
+    "star": true
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Recetas de Cocina",
+    "author": "Obsidian PKM Vault",
+    "vault": "https://github.com/obsidian-pkm-vault/recetas-cocina",
+    "web": "https://obsidian-pkm-vault.github.io/recetas-cocina/",
+    "star": true
+  },
+  {
+    "category": "Food & Lifestyle",
+    "name": "Recipes as JSON",
+    "author": "Dpapathanasiou",
+    "vault": "https://github.com/dpapathanasiou/recipes",
+    "web": null,
+    "star": true
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "KaaS",
+    "author": "Jimbrig",
+    "vault": "https://github.com/jimbrig/KaaS",
+    "web": "https://kaas.jimbrig.com/",
+    "star": false
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "Knowledge",
+    "author": "Nikitavoloboev",
+    "vault": "https://github.com/nikitavoloboev/knowledge",
+    "web": "https://nikiv.dev/",
+    "star": false
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "Ontology Engineering Curriculum",
+    "author": "fabio-rovai",
+    "vault": "https://github.com/fabio-rovai/ontology-curriculum/tree/main/vault",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "Yangming Mind OS",
+    "author": "sunhaoyu-sawma",
+    "vault": "https://github.com/sunhaoyu-sawma/Yangming-Mind-OS",
+    "web": "https://sunhaoyu-sawma.github.io/Yangming-Mind-OS/",
+    "star": false
+  },
+  {
+    "category": "Personal Websites & Indie Web",
+    "name": "Devine Lu Linvega (oscean)",
+    "author": null,
+    "vault": "https://github.com/XXIIVV/oscean",
+    "web": "https://wiki.xxiivv.com/site/home.html",
+    "star": false
+  },
+  {
+    "category": "Personal Websites & Indie Web",
+    "name": "Hundred Rabbits site",
+    "author": null,
+    "vault": "https://github.com/hundredrabbits/100r.co",
+    "web": "https://100r.co/site/home.html",
+    "star": false
+  },
+  {
+    "category": "Personal Websites & Indie Web",
+    "name": "Rekka Bellum (kokorobot)",
+    "author": null,
+    "vault": "https://github.com/rekkabell/kokorobot",
+    "web": "https://kokorobot.ca/site/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Awesome Agent Skills",
+    "author": "VoltAgent",
+    "vault": "https://github.com/VoltAgent/awesome-agent-skills",
+    "web": "https://officialskills.sh/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Computer Guides",
+    "author": "mayfrost",
+    "vault": "https://github.com/mayfrost/guides/tree/master",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Computing notes",
+    "author": "Noodleslove",
+    "vault": "https://github.com/noodleslove/notes",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "CS Notes",
+    "author": "xy-241",
+    "vault": "https://github.com/xy-241/CS-Notes",
+    "web": "https://notes.yxy.ninja/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "CyberChef",
+    "author": "GCHQ",
+    "vault": "https://github.com/gchq/CyberChef",
+    "web": "https://gchq.github.io/CyberChef/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Data Engineering Wiki",
+    "author": null,
+    "vault": "https://github.com/data-engineering-community/data-engineering-wiki",
+    "web": "https://dataengineering.wiki/Index",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Dotnet API Docs",
+    "author": null,
+    "vault": "https://github.com/dotnet/dotnet-api-docs",
+    "web": "https://learn.microsoft.com/en-us/dotnet/api/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "JavaScript Info (EN)",
+    "author": null,
+    "vault": "https://github.com/javascript-tutorial/en.javascript.info",
+    "web": "https://javascript.info/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Learning Notes",
+    "author": "Keyvanakbary",
+    "vault": "https://github.com/keyvanakbary/learning-notes",
+    "web": "https://keyvanakbary.github.io/learning-notes/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "OSSU Computer Science",
+    "author": null,
+    "vault": "https://github.com/ossu/computer-science",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "Skills",
+    "author": "Vercel labs",
+    "vault": "https://github.com/vercel-labs/skills",
+    "web": "https://www.skills.sh/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "SQL Docs",
+    "author": "MicrosoftDocs",
+    "vault": "https://github.com/MicrosoftDocs/sql-docs",
+    "web": "https://learn.microsoft.com/en-us/sql/?view=sql-server-ver17",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
+    "name": "System Design 101",
+    "author": "ByteByteGoHq",
+    "vault": "https://github.com/ByteByteGoHq/system-design-101",
+    "web": "https://bytebytego.com/guides/",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Ideaverse",
+    "author": "LYT (Nick Milo)",
+    "vault": null,
+    "web": "https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Second Brain Starter",
+    "author": "secondbrainstarter",
+    "vault": "https://github.com/secondbrainstarter/second-brain-starter",
+    "web": "https://secondbrainstarter.github.io/",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Undercroft",
+    "author": "Latticework Labs",
+    "vault": "https://github.com/latticeworklabs-eng/undercroft",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Science & Research",
+    "name": "Wikiterra Vault",
+    "author": null,
+    "vault": "https://github.com/Wikiterra/wikiterra-vault",
+    "web": "https://wikiterra.github.io/",
+    "star": false
+  },
+  {
+    "category": "Web Directories & Media",
+    "name": "Free Media Heck Yeah",
+    "author": "nbats",
+    "vault": "https://github.com/fmhy/edit",
+    "web": "https://fmhy.net/",
+    "star": true
+  },
+  {
+    "category": "Web Directories & Media",
+    "name": "Interneto",
+    "author": "David7ce",
+    "vault": "https://github.com/interneto/interneto.github.io",
+    "web": "https://interneto.github.io/",
+    "star": true
+  }
+]
