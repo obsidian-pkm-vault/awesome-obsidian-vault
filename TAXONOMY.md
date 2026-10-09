@@ -14,16 +14,17 @@ The goal is to keep the classification easy to scan while leaving room for futur
 
 ### Primary categories
 
-- Computing & Software
+These match the `Category` column in `README.md` (enforced by
+`scripts/build-readme.mjs`):
+
 - Digital Gardens & Publishing
 - Documentation & Knowledge
-- Education & Learning
-- Knowledge Bases & Wiki Vaults
 - Food & Lifestyle
+- Knowledge Bases & Wiki Vaults
 - Personal Websites & Indie Web
 - Programming & Software
-- Science & Research
 - Sample Vaults & Templates
+- Science & Research
 - Web Directories & Media
 
 ### Secondary tags
@@ -75,12 +76,14 @@ The following labels are recommended for the current list:
 - Digital Gardens & Publishing
 - Documentation & Knowledge
 - Food & Lifestyle
-- Knowledge & Learning
 - Knowledge Bases & Wiki Vaults
 - Personal Websites & Indie Web
 - Programming & Software
 - Sample Vaults & Templates
 - Science & Research
 - Web Directories & Media
+
+`Resources` and `List of Showcases` are separate sections with their own
+sub-categories (see `data/resources.json` and `data/showcases.json`).
 
 If a finer-grained breakdown is needed, use sublabels such as Software Engineering, Developer Tools, or Design under the broader Programming & Software umbrella.

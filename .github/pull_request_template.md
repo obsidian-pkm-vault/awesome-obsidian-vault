@@ -1,4 +1,4 @@
-<!-- e.g. Adds the "Blue Book — lyz-code" vault under Documentation. -->
+<!-- e.g. Adds the "Blue Book — lyz-code" vault under Documentation & Knowledge. -->
 
 ## What does this PR do?
 
@@ -6,9 +6,8 @@
 
 ## Checklist
 
-- [ ] The entry is under the correct category, with rows grouped by category.
-- [ ] The row follows the format: `| Category | Name — author | [vault](url) | [web](url) |   |`.
-- [ ] Used `N/A` where a vault or web link doesn't exist.
+- [ ] The entry is in `data/vaults.json` (or `data/resources.json` / `data/showcases.json`) under the correct category.
+- [ ] The entry follows the schema in `CONTRIBUTING.md` (`category`, `name`, `author`, `vault`/`web`, `star: false`).
 - [ ] Links work and point to the canonical source.
-- [ ] If I added/removed entries, I updated the count in the relevant heading.
+- [ ] I ran `node scripts/build-readme.mjs` and committed the regenerated `README.md`.
 - [ ] I read [CONTRIBUTING.md](../CONTRIBUTING.md).

@@ -22,17 +22,15 @@ body:
     attributes:
       label: Category
       options:
-        - Computer Science
-        - Cooking
-        - Cosmology
-        - Dev & Design
-        - Digital Garden
-        - Documentation
-        - Engineering
-        - Knowledge
-        - Personal Site
-        - Sample vault
-        - Web Directory
+        - Digital Gardens & Publishing
+        - Documentation & Knowledge
+        - Food & Lifestyle
+        - Knowledge Bases & Wiki Vaults
+        - Personal Websites & Indie Web
+        - Programming & Software
+        - Sample Vaults & Templates
+        - Science & Research
+        - Web Directories & Media
         - Other (describe below)
     validations:
       required: true
