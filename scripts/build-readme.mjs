@@ -70,7 +70,26 @@ function assertUrl(url, where) {
   }
 }
 
+function assertNonEmptyString(value, what) {
+  if (typeof value !== "string" || value.trim() === "") {
+    throw new Error(`${what} must be a non-empty string, got ${JSON.stringify(value)}`);
+  }
+}
+
+function assertStringOrNull(value, what) {
+  if (value !== null && typeof value !== "string") {
+    throw new Error(`${what} must be a string or null, got ${JSON.stringify(value)}`);
+  }
+}
+
+function assertArray(value, what) {
+  if (!Array.isArray(value)) {
+    throw new Error(`${what} must be an array`);
+  }
+}
+
 function validateVaults(vaults) {
+  assertArray(vaults, "vaults.json");
   const seen = new Set();
   for (const v of vaults) {
     for (const key of ["category", "name", "vault", "web", "star"]) {
@@ -78,6 +97,11 @@ function validateVaults(vaults) {
     }
     if (!VAULT_CATEGORY_ORDER.includes(v.category)) {
       throw new Error(`unknown category ${JSON.stringify(v.category)}`);
+    }
+    assertNonEmptyString(v.name, "vault name");
+    assertStringOrNull(v.author, `author of ${JSON.stringify(v.name)}`);
+    if (typeof v.star !== "boolean") {
+      throw new Error(`star of ${JSON.stringify(v.name)} must be true or false (no quotes), got ${JSON.stringify(v.star)}`);
     }
     if (v.vault == null && v.web == null) {
       throw new Error(`entry needs at least one link: ${v.category} / ${v.name}`);
@@ -91,6 +115,7 @@ function validateVaults(vaults) {
 }
 
 function validateResources(resources) {
+  assertArray(resources, "resources.json");
   for (const r of resources) {
     for (const key of ["category", "name", "links"]) {
       if (!(key in r)) throw new Error(`resource entry missing ${key}: ${JSON.stringify(r)}`);
@@ -98,19 +123,25 @@ function validateResources(resources) {
     if (!RESOURCE_CATEGORY_ORDER.includes(r.category)) {
       throw new Error(`unknown resource category ${JSON.stringify(r.category)}`);
     }
+    assertNonEmptyString(r.name, "resource name");
     if (!Array.isArray(r.links) || r.links.length === 0) {
       throw new Error(`resource has no links: ${r.name}`);
     }
-    for (const l of r.links) assertUrl(l.url, r.name);
+    for (const l of r.links) {
+      assertNonEmptyString(l.label, `link label in ${JSON.stringify(r.name)}`);
+      assertUrl(l.url, r.name);
+    }
   }
 }
 
 function validateShowcases(showcases) {
+  assertArray(showcases, "showcases.json");
   const seen = new Set();
   for (const s of showcases) {
     for (const key of ["name", "url"]) {
       if (!(key in s)) throw new Error(`showcase entry missing ${key}: ${JSON.stringify(s)}`);
     }
+    assertNonEmptyString(s.name, "showcase name");
     assertUrl(s.url, s.name);
     if (seen.has(s.url)) throw new Error(`duplicate showcase: ${s.name}`);
     seen.add(s.url);

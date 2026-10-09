@@ -35,15 +35,15 @@ These match the `Category` column in `README.md` (enforced by
 
 ## 3. Suggested mapping for current entries
 
+Groups of the categories actually in use (see `README.md`):
+
 - Programming & Software
-  - Programming & Computer Science
-  - Software Engineering
-  - Developer Tools
-  - Design
+  - Programming notes and computer-science courses
+  - Developer tools and references
 
 - Knowledge & Reference
   - Documentation & Knowledge
-  - Knowledge & Learning
+  - Knowledge Bases & Wiki Vaults
   - Science & Research
 
 - Publishing & Personal Web
@@ -53,11 +53,6 @@ These match the `Category` column in `README.md` (enforced by
 
 - Lifestyle & Practical Use
   - Food & Lifestyle
-
-- Knowledge Bases & Wiki Vaults
-  - Markdown-based wikis
-  - Wikipedia-like vaults
-  - Community knowledge bases
 
 - Templates & Examples
   - Sample Vaults & Templates

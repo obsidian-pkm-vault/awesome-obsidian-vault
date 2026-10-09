@@ -3,7 +3,9 @@ name: List Check
 on:
   push:
     branches: [main]
+    paths: ["data/**", "scripts/**", "README.md", ".github/workflows/list-check.yml"]
   pull_request:
+    paths: ["data/**", "scripts/**", "README.md", ".github/workflows/list-check.yml"]
 
 permissions:
   contents: read
