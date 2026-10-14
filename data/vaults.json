@@ -209,6 +209,14 @@
   },
   {
     "category": "Knowledge Bases & Wiki Vaults",
+    "name": "BJJGraph",
+    "author": "diogoseca",
+    "vault": "https://github.com/diogoseca/bjjgraph/tree/main/content",
+    "web": "https://bjjgraph.org/",
+    "star": false
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
     "name": "KaaS",
     "author": "Jimbrig",
     "vault": "https://github.com/jimbrig/KaaS",
