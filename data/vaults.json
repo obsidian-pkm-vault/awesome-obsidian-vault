@@ -408,6 +408,14 @@
     "star": false
   },
   {
+    "category": "Sample Vaults & Templates",
+    "name": "Personal Knowledge Base Template",
+    "author": "wangshuhui0613",
+    "vault": "https://github.com/wangshuhui0613/personal-kb-template",
+    "web": "https://wangshuhui0613.github.io/personal-kb-template/",
+    "star": false
+  },
+  {
     "category": "Science & Research",
     "name": "Wikiterra Vault",
     "author": null,
