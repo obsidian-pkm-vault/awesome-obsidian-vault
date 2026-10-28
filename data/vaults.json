@@ -430,5 +430,13 @@
     "vault": "https://github.com/interneto/interneto.github.io",
     "web": "https://interneto.github.io/",
     "star": true
+  },
+  {
+    "category": "Digital Gardens & Publishing",
+    "name": "Obsidian Garden",
+    "author": "sina-salahshour",
+    "vault": "https://github.com/sina-salahshour/obsidian-garden",
+    "web": "https://garden.drhexe.ir",
+    "star": false
   }
 ]
