@@ -56,6 +56,10 @@
       {
         "label": "vault",
         "url": "https://github.com/crosstalk-solutions/project-nomad"
+      },
+      {
+        "label": "web",
+        "url": "https://www.projectnomad.us/"
       }
     ]
   },

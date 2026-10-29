@@ -185,7 +185,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
       <td>Kiwix Library</td>
       <td><a href="https://library.kiwix.org/#lang=eng">library</a></td>
     </tr>
-    <tr><td>Project N.O.M.A.D.</td><td><a href="https://github.com/crosstalk-solutions/project-nomad">vault</a></td></tr>
+    <tr><td>Project N.O.M.A.D.</td><td><a href="https://github.com/crosstalk-solutions/project-nomad">vault</a> / <a href="https://www.projectnomad.us/">web</a></td></tr>
     <tr><td>Wikimedia Dumps</td><td><a href="https://dumps.wikimedia.org/other/static_html_dumps/">static HTML Dumps</a></td></tr>
     <tr><td>Wikipedia from itkach</td><td><a href="https://github.com/itkach/slob/wiki/Wikipedia">wiki</a></td></tr>
     <tr><td>Wikis and Dicts from itkach</td><td><a href="https://github.com/itkach/slob/wiki/Other-projects">wiki</a></td></tr>
