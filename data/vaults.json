@@ -470,5 +470,13 @@
     "vault": "https://github.com/engagementdesk/obsidian-consulting-components",
     "web": null,
     "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "FridayOS 1.0",
+    "author": "Robinson AI Lab / Owen Teng",
+    "vault": "https://github.com/Robinson-AI-Lab/FridayOS1.0",
+    "web": null,
+    "star": false
   }
 ]
