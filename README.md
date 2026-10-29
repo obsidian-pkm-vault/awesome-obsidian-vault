@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic (60)
+## Vaults and websites grouped by topic or purpose (60)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -26,38 +26,16 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </thead>
   <tbody>
     <tr class="section-row">
-      <th rowspan="8" class="category-cell">Digital Gardens &amp; Publishing</th>
-      <td>Alexia Chen notes — AlexiaChen</td>
-      <td><a href="https://github.com/AlexiaChen/my-notes">vault</a></td>
-      <td></td>
+      <th rowspan="2" class="category-cell">Curated Directories</th>
+      <td>Free Media Heck Yeah — nbats</td>
+      <td><a href="https://github.com/fmhy/edit">vault</a> / <a href="https://fmhy.net/">web</a></td>
+      <td>✨</td>
     </tr>
-    <tr><td>Digital Gardeners — MaggieAppleton</td><td><a href="https://github.com/MaggieAppleton/digital-gardeners">vault</a></td><td></td></tr>
-    <tr><td>Obsidian Digital Garden — ThatOtherAndrew</td><td><a href="https://github.com/ThatOtherAndrew/obsidian-digital-garden">vault</a> / <a href="https://notes.thatother.dev/">web</a></td><td></td></tr>
-    <tr><td>Obsidian Garden — sina-salahshour</td><td><a href="https://github.com/sina-salahshour/obsidian-garden">vault</a> / <a href="https://garden.drhexe.ir">web</a></td><td></td></tr>
-    <tr><td>Obsidian Templates — Groepl</td><td><a href="https://github.com/groepl/Obsidian-Templates">vault</a></td><td></td></tr>
-    <tr><td>Obsidian Templates — Ykerus</td><td><a href="https://github.com/ykerus/obsidian-templates">vault</a></td><td></td></tr>
-    <tr><td>Obsidian Vault Template — CyanVoxel</td><td><a href="https://github.com/CyanVoxel/Obsidian-Vault-Template">vault</a></td><td></td></tr>
-    <tr><td>Topobon — Uroybd</td><td><a href="https://github.com/uroybd/topobon">vault</a> / <a href="https://hermitage.utsob.me/">web</a></td><td>✨</td></tr>
+    <tr><td>Interneto — David7ce</td><td><a href="https://github.com/interneto/interneto.github.io">vault</a> / <a href="https://interneto.github.io/">web</a></td><td>✨</td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="9" class="category-cell">Documentation &amp; Knowledge</th>
-      <td>Blue Book — lyz-code</td>
-      <td><a href="https://github.com/lyz-code/blue-book">vault</a> / <a href="https://lyz-code.github.io/blue-book/">web</a></td>
-      <td></td>
-    </tr>
-    <tr><td>Cheatsheets — Rico Sta. Cruz</td><td><a href="https://github.com/rstacruz/cheatsheets">vault</a> / <a href="https://devhints.io/">web</a></td><td></td></tr>
-    <tr><td>DashboardPlusPlus — TfTHacker</td><td><a href="https://github.com/TfTHacker/DashboardPlusPlus">vault</a> / <a href="https://tfthacker.com/DashboardPlusPLus">web</a></td><td></td></tr>
-    <tr><td>Digital Garden Docs — oleeskild</td><td><a href="https://github.com/oleeskild/digitalgardendocs">vault</a> / <a href="https://dg-docs.ole.dev/">web</a></td><td></td></tr>
-    <tr><td>Gatekeeperwiki Game — Gravity Lagoon</td><td><a href="https://github.com/Mondrethos/gatekeeperwiki">vault</a> / <a href="https://www.gatekeeper.wiki/">web</a></td><td></td></tr>
-    <tr><td>Kepano Obsidian</td><td><a href="https://github.com/kepano/kepano-obsidian">vault</a> / <a href="https://stephango.com/vault">web</a></td><td>✨</td></tr>
-    <tr><td>Obsidian Hub</td><td><a href="https://github.com/obsidian-community/obsidian-hub">vault</a> / <a href="https://publish.obsidian.md/hub/00+-+Start+here">web</a></td><td>✨</td></tr>
-    <tr><td>Obsidian Icewind — Shervinsahba</td><td><a href="https://github.com/shervinsahba/obsidian-icewind">vault</a> / <a href="https://icewind.quest/">web</a></td><td>✨</td></tr>
-    <tr><td>Obsidian Tasks — Obsidian Tasks Group</td><td><a href="https://github.com/obsidian-tasks-group/obsidian-tasks">vault</a> / <a href="https://publish.obsidian.md/tasks/">web</a></td><td></td></tr>
-  </tbody>
-  <tbody>
-    <tr class="section-row">
-      <th rowspan="10" class="category-cell">Food &amp; Lifestyle</th>
+      <th rowspan="10" class="category-cell">Food &amp; Cooking</th>
       <td>Based.cooking — Luke Smith</td>
       <td><a href="https://github.com/lukesmithxyz/based.cooking">vault</a> / <a href="https://based.cooking/">web</a></td>
       <td>✨</td>
@@ -74,30 +52,26 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="6" class="category-cell">Knowledge Bases &amp; Wiki Vaults</th>
+      <th rowspan="12" class="category-cell">Knowledge &amp; Reference</th>
       <td>BJJGraph — diogoseca</td>
       <td><a href="https://github.com/diogoseca/bjjgraph/tree/main/content">vault</a> / <a href="https://bjjgraph.org/">web</a></td>
       <td></td>
     </tr>
+    <tr><td>Blue Book — lyz-code</td><td><a href="https://github.com/lyz-code/blue-book">vault</a> / <a href="https://lyz-code.github.io/blue-book/">web</a></td><td></td></tr>
+    <tr><td>Cheatsheets — Rico Sta. Cruz</td><td><a href="https://github.com/rstacruz/cheatsheets">vault</a> / <a href="https://devhints.io/">web</a></td><td></td></tr>
+    <tr><td>Gatekeeperwiki Game — Gravity Lagoon</td><td><a href="https://github.com/Mondrethos/gatekeeperwiki">vault</a> / <a href="https://www.gatekeeper.wiki/">web</a></td><td></td></tr>
     <tr><td>KaaS — Jimbrig</td><td><a href="https://github.com/jimbrig/KaaS">vault</a> / <a href="https://kaas.jimbrig.com/">web</a></td><td></td></tr>
     <tr><td>Knowledge — Nikitavoloboev</td><td><a href="https://github.com/nikitavoloboev/knowledge">vault</a> / <a href="https://nikiv.dev/">web</a></td><td></td></tr>
+    <tr><td>Obsidian Hub</td><td><a href="https://github.com/obsidian-community/obsidian-hub">vault</a> / <a href="https://publish.obsidian.md/hub/00+-+Start+here">web</a></td><td>✨</td></tr>
+    <tr><td>Obsidian Icewind — Shervinsahba</td><td><a href="https://github.com/shervinsahba/obsidian-icewind">vault</a> / <a href="https://icewind.quest/">web</a></td><td>✨</td></tr>
     <tr><td>Ontology Engineering Curriculum — fabio-rovai</td><td><a href="https://github.com/fabio-rovai/ontology-curriculum/tree/main/vault">vault</a></td><td></td></tr>
     <tr><td>Podcast Wiki — HagaiHen</td><td><a href="https://github.com/HagaiHen/podcast-wiki">vault</a> / <a href="https://hagaihen.github.io/podcast-wiki/">web</a></td><td></td></tr>
+    <tr><td>Wikiterra Vault</td><td><a href="https://github.com/Wikiterra/wikiterra-vault">vault</a> / <a href="https://wikiterra.github.io/">web</a></td><td></td></tr>
     <tr><td>Yangming Mind OS — sunhaoyu-sawma</td><td><a href="https://github.com/sunhaoyu-sawma/Yangming-Mind-OS">vault</a> / <a href="https://sunhaoyu-sawma.github.io/Yangming-Mind-OS/">web</a></td><td></td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="3" class="category-cell">Personal Websites &amp; Indie Web</th>
-      <td>Devine Lu Linvega (oscean)</td>
-      <td><a href="https://github.com/XXIIVV/oscean">vault</a> / <a href="https://wiki.xxiivv.com/site/home.html">web</a></td>
-      <td></td>
-    </tr>
-    <tr><td>Hundred Rabbits site</td><td><a href="https://github.com/hundredrabbits/100r.co">vault</a> / <a href="https://100r.co/site/home.html">web</a></td><td></td></tr>
-    <tr><td>Rekka Bellum (kokorobot)</td><td><a href="https://github.com/rekkabell/kokorobot">vault</a> / <a href="https://kokorobot.ca/site/">web</a></td><td></td></tr>
-  </tbody>
-  <tbody>
-    <tr class="section-row">
-      <th rowspan="14" class="category-cell">Programming &amp; Software</th>
+      <th rowspan="15" class="category-cell">Programming &amp; Software</th>
       <td>Awesome Agent Skills — VoltAgent</td>
       <td><a href="https://github.com/VoltAgent/awesome-agent-skills">vault</a> / <a href="https://officialskills.sh/">web</a></td>
       <td></td>
@@ -111,6 +85,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
     <tr><td>Jailbreaks — togg53192-cmd</td><td><a href="https://github.com/togg53192-cmd/jailbreaks">vault</a></td><td></td></tr>
     <tr><td>JavaScript Info (EN)</td><td><a href="https://github.com/javascript-tutorial/en.javascript.info">vault</a> / <a href="https://javascript.info/">web</a></td><td></td></tr>
     <tr><td>Learning Notes — Keyvanakbary</td><td><a href="https://github.com/keyvanakbary/learning-notes">vault</a> / <a href="https://keyvanakbary.github.io/learning-notes/">web</a></td><td></td></tr>
+    <tr><td>Obsidian Tasks — Obsidian Tasks Group</td><td><a href="https://github.com/obsidian-tasks-group/obsidian-tasks">vault</a> / <a href="https://publish.obsidian.md/tasks/">web</a></td><td></td></tr>
     <tr><td>OSSU Computer Science</td><td><a href="https://github.com/ossu/computer-science">vault</a> / <a href="https://cs.ossu.dev/">web</a></td><td></td></tr>
     <tr><td>Skills — Vercel labs</td><td><a href="https://github.com/vercel-labs/skills">vault</a> / <a href="https://www.skills.sh/">web</a></td><td></td></tr>
     <tr><td>SQL Docs — MicrosoftDocs</td><td><a href="https://github.com/MicrosoftDocs/sql-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver17">web</a></td><td></td></tr>
@@ -118,34 +93,38 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="7" class="category-cell">Sample Vaults &amp; Templates</th>
-      <td>FridayOS 1.0 — Robinson AI Lab / Owen Teng</td>
-      <td><a href="https://github.com/Robinson-AI-Lab/FridayOS1.0">vault</a></td>
+      <th rowspan="8" class="category-cell">Publishing &amp; Personal Sites</th>
+      <td>Alexia Chen notes — AlexiaChen</td>
+      <td><a href="https://github.com/AlexiaChen/my-notes">vault</a></td>
       <td></td>
     </tr>
+    <tr><td>Devine Lu Linvega (oscean)</td><td><a href="https://github.com/XXIIVV/oscean">vault</a> / <a href="https://wiki.xxiivv.com/site/home.html">web</a></td><td></td></tr>
+    <tr><td>Digital Gardeners — MaggieAppleton</td><td><a href="https://github.com/MaggieAppleton/digital-gardeners">vault</a></td><td></td></tr>
+    <tr><td>Hundred Rabbits site</td><td><a href="https://github.com/hundredrabbits/100r.co">vault</a> / <a href="https://100r.co/site/home.html">web</a></td><td></td></tr>
+    <tr><td>Obsidian Digital Garden — ThatOtherAndrew</td><td><a href="https://github.com/ThatOtherAndrew/obsidian-digital-garden">vault</a> / <a href="https://notes.thatother.dev/">web</a></td><td></td></tr>
+    <tr><td>Obsidian Garden — sina-salahshour</td><td><a href="https://github.com/sina-salahshour/obsidian-garden">vault</a> / <a href="https://garden.drhexe.ir">web</a></td><td></td></tr>
+    <tr><td>Rekka Bellum (kokorobot)</td><td><a href="https://github.com/rekkabell/kokorobot">vault</a> / <a href="https://kokorobot.ca/site/">web</a></td><td></td></tr>
+    <tr><td>Topobon — Uroybd</td><td><a href="https://github.com/uroybd/topobon">vault</a> / <a href="https://hermitage.utsob.me/">web</a></td><td>✨</td></tr>
+  </tbody>
+  <tbody>
+    <tr class="section-row">
+      <th rowspan="13" class="category-cell">Sample Vaults &amp; Templates</th>
+      <td>DashboardPlusPlus — TfTHacker</td>
+      <td><a href="https://github.com/TfTHacker/DashboardPlusPlus">vault</a> / <a href="https://tfthacker.com/DashboardPlusPLus">web</a></td>
+      <td></td>
+    </tr>
+    <tr><td>Digital Garden Docs — oleeskild</td><td><a href="https://github.com/oleeskild/digitalgardendocs">vault</a> / <a href="https://dg-docs.ole.dev/">web</a></td><td></td></tr>
+    <tr><td>FridayOS 1.0 — Robinson AI Lab / Owen Teng</td><td><a href="https://github.com/Robinson-AI-Lab/FridayOS1.0">vault</a></td><td></td></tr>
     <tr><td>Ideaverse — LYT (Nick Milo)</td><td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td><td></td></tr>
+    <tr><td>Kepano Obsidian</td><td><a href="https://github.com/kepano/kepano-obsidian">vault</a> / <a href="https://stephango.com/vault">web</a></td><td>✨</td></tr>
     <tr><td>Obsidian Consulting Components — Engagement Desk</td><td><a href="https://github.com/engagementdesk/obsidian-consulting-components">vault</a></td><td></td></tr>
+    <tr><td>Obsidian Templates — Groepl</td><td><a href="https://github.com/groepl/Obsidian-Templates">vault</a></td><td></td></tr>
+    <tr><td>Obsidian Templates — Ykerus</td><td><a href="https://github.com/ykerus/obsidian-templates">vault</a></td><td></td></tr>
+    <tr><td>Obsidian Vault Template — CyanVoxel</td><td><a href="https://github.com/CyanVoxel/Obsidian-Vault-Template">vault</a></td><td></td></tr>
     <tr><td>Personal Knowledge Base Template — wangshuhui0613</td><td><a href="https://github.com/wangshuhui0613/keep-the-why">vault</a> / <a href="https://wangshuhui0613.github.io/keep-the-why/">web</a></td><td></td></tr>
     <tr><td>Second Brain Starter — secondbrainstarter</td><td><a href="https://github.com/secondbrainstarter/second-brain-starter">vault</a> / <a href="https://secondbrainstarter.github.io/">web</a></td><td></td></tr>
     <tr><td>Self-Knowledge Vault — Tanudai</td><td><a href="https://github.com/tanudai/obsidian-self-knowledge-vault">vault</a> / <a href="https://astrodai.in/obsidian/">web</a></td><td></td></tr>
     <tr><td>Undercroft — Latticework Labs</td><td><a href="https://github.com/latticeworklabs-eng/undercroft">vault</a></td><td></td></tr>
-  </tbody>
-  <tbody>
-    <tr class="section-row">
-      <th rowspan="1" class="category-cell">Science &amp; Research</th>
-      <td>Wikiterra Vault</td>
-      <td><a href="https://github.com/Wikiterra/wikiterra-vault">vault</a> / <a href="https://wikiterra.github.io/">web</a></td>
-      <td></td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr class="section-row">
-      <th rowspan="2" class="category-cell">Web Directories &amp; Media</th>
-      <td>Free Media Heck Yeah — nbats</td>
-      <td><a href="https://github.com/fmhy/edit">vault</a> / <a href="https://fmhy.net/">web</a></td>
-      <td>✨</td>
-    </tr>
-    <tr><td>Interneto — David7ce</td><td><a href="https://github.com/interneto/interneto.github.io">vault</a> / <a href="https://interneto.github.io/">web</a></td><td>✨</td></tr>
   </tbody>
 </table>
 <!-- VAULTS:END -->

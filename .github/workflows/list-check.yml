@@ -3,9 +3,9 @@ name: List Check
 on:
   push:
     branches: [main]
-    paths: ["data/**", "scripts/**", "README.md", ".github/workflows/list-check.yml"]
+    paths: ["data/**", "scripts/**", "README.md", "TAXONOMY.md", ".github/workflows/list-check.yml"]
   pull_request:
-    paths: ["data/**", "scripts/**", "README.md", ".github/workflows/list-check.yml"]
+    paths: ["data/**", "scripts/**", "README.md", "TAXONOMY.md", ".github/workflows/list-check.yml"]
 
 permissions:
   contents: read
@@ -22,5 +22,5 @@ jobs:
         with:
           node-version: 22
 
-      - name: Check README is generated from data/*.json
+      - name: Check README and taxonomy are generated from data/*.json
         run: node scripts/build-readme.mjs --check

@@ -17,23 +17,12 @@ body:
       placeholder: Name — author
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: category
     attributes:
-      label: Category
-      options:
-        - Digital Gardens & Publishing
-        - Documentation & Knowledge
-        - Food & Lifestyle
-        - Knowledge Bases & Wiki Vaults
-        - Personal Websites & Indie Web
-        - Programming & Software
-        - Sample Vaults & Templates
-        - Science & Research
-        - Web Directories & Media
-        - Other (describe below)
-    validations:
-      required: true
+      label: Suggested category (optional)
+      description: See TAXONOMY.md for the current categories; if unsure, describe the vault's main purpose instead.
+      placeholder: e.g. Knowledge & Reference
   - type: input
     id: vault
     attributes:

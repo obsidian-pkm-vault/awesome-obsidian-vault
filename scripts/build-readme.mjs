@@ -1,15 +1,16 @@
 #!/usr/bin/env node
 /**
- * Build README tables from data/vaults.json and data/resources.json.
+ * Build README tables and TAXONOMY.md from data/*.json.
  *
- * Source of truth: data/*.json (LF, UTF-8).
- * Generated artifacts: Markdown tables and heading counts in README.md.
+ * Source of truth: data/*.json (LF, UTF-8), including the category catalog.
+ * Generated artifacts: Markdown tables/counts in README.md and category
+ * definitions in TAXONOMY.md.
  *
  * No dependencies (Node stdlib only). Runs in CI via:
  *   node scripts/build-readme.mjs --check
  *
  * Usage: node scripts/build-readme.mjs [--check]
- *   --check: exit 1 if README.md is out of date (for CI/PRs).
+ *   --check: exit 1 if README.md or TAXONOMY.md is out of date (for CI/PRs).
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -17,28 +18,11 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const README = join(ROOT, "README.md");
+const TAXONOMY = join(ROOT, "TAXONOMY.md");
+const CATEGORIES_JSON = join(ROOT, "data", "categories.json");
 const VAULTS_JSON = join(ROOT, "data", "vaults.json");
 const RESOURCES_JSON = join(ROOT, "data", "resources.json");
 const SHOWCASES_JSON = join(ROOT, "data", "showcases.json");
-
-// Display order of vault categories (matches TAXONOMY.md / README).
-const VAULT_CATEGORY_ORDER = [
-  "Digital Gardens & Publishing",
-  "Documentation & Knowledge",
-  "Food & Lifestyle",
-  "Knowledge Bases & Wiki Vaults",
-  "Personal Websites & Indie Web",
-  "Programming & Software",
-  "Sample Vaults & Templates",
-  "Science & Research",
-  "Web Directories & Media",
-];
-
-const RESOURCE_CATEGORY_ORDER = [
-  "Cheat Sheets and Miscellaneous",
-  "Dictionaries and Language Resources",
-  "Encyclopedia Resources",
-];
 
 /** Escape HTML text content. */
 function esc(text) {
@@ -88,14 +72,42 @@ function assertArray(value, what) {
   }
 }
 
-function validateVaults(vaults) {
+function validateCategoryDefinitions(categories) {
+  if (!categories || typeof categories !== "object" || Array.isArray(categories)) {
+    throw new Error("categories.json must be an object");
+  }
+  for (const key of ["vaults", "resources"]) {
+    assertArray(categories[key], `categories.json ${key}`);
+    if (categories[key].length === 0) {
+      throw new Error(`categories.json ${key} must contain at least one category`);
+    }
+    const seen = new Set();
+    for (const category of categories[key]) {
+      assertNonEmptyString(category.name, `category name in ${key}`);
+      assertNonEmptyString(category.scope, `scope for category ${JSON.stringify(category.name)}`);
+      if (seen.has(category.name)) {
+        throw new Error(`duplicate category in ${key}: ${category.name}`);
+      }
+      seen.add(category.name);
+    }
+  }
+  assertArray(categories.vaultRules, "categories.json vaultRules");
+  if (categories.vaultRules.length === 0) {
+    throw new Error("categories.json vaultRules must contain at least one rule");
+  }
+  for (const rule of categories.vaultRules) {
+    assertNonEmptyString(rule, "vault classification rule");
+  }
+}
+
+function validateVaults(vaults, categoryNames) {
   assertArray(vaults, "vaults.json");
   const seen = new Set();
   for (const v of vaults) {
     for (const key of ["category", "name", "vault", "web", "star"]) {
       if (!(key in v)) throw new Error(`vault entry missing ${key}: ${JSON.stringify(v)}`);
     }
-    if (!VAULT_CATEGORY_ORDER.includes(v.category)) {
+    if (!categoryNames.has(v.category)) {
       throw new Error(`unknown category ${JSON.stringify(v.category)}`);
     }
     assertNonEmptyString(v.name, "vault name");
@@ -114,13 +126,13 @@ function validateVaults(vaults) {
   }
 }
 
-function validateResources(resources) {
+function validateResources(resources, categoryNames) {
   assertArray(resources, "resources.json");
   for (const r of resources) {
     for (const key of ["category", "name", "links"]) {
       if (!(key in r)) throw new Error(`resource entry missing ${key}: ${JSON.stringify(r)}`);
     }
-    if (!RESOURCE_CATEGORY_ORDER.includes(r.category)) {
+    if (!categoryNames.has(r.category)) {
       throw new Error(`unknown resource category ${JSON.stringify(r.category)}`);
     }
     assertNonEmptyString(r.name, "resource name");
@@ -229,28 +241,81 @@ function renderShowcases(showcases) {
   return showcases.map((s) => `- [${s.name}](${s.url})`).join("\n");
 }
 
+function markdownCell(text) {
+  return String(text).replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
+}
+
+function renderTaxonomy(categories) {
+  const lines = [
+    "# Taxonomy",
+    "",
+    "This file is generated from [`data/categories.json`](data/categories.json).",
+    "That file is the canonical source for category names, scopes, and display order.",
+    "",
+    "## Vaults and websites",
+    "",
+    "Each entry gets exactly one primary category. Apply these rules in order:",
+    "",
+  ];
+  for (const rule of categories.vaultRules) lines.push(`- ${markdownCell(rule)}`);
+  lines.push(
+    "",
+    "The `vault` and `web` fields describe delivery links, not category facets.",
+    "",
+    "| Category | Use it for |",
+    "|---|---|",
+  );
+  for (const category of categories.vaults) {
+    lines.push(`| ${markdownCell(category.name)} | ${markdownCell(category.scope)} |`);
+  }
+  lines.push(
+    "",
+    "## Resources",
+    "",
+    "These categories apply to the separate `Resources` section, not to vault entries.",
+    "",
+    "| Category | Use it for |",
+    "|---|---|",
+  );
+  for (const category of categories.resources) {
+    lines.push(`| ${markdownCell(category.name)} | ${markdownCell(category.scope)} |`);
+  }
+  lines.push(
+    "",
+    "## Adding or changing a category",
+    "",
+    "Update `data/categories.json`, recategorize affected entries in `data/*.json`,",
+    "and run `node scripts/build-readme.mjs`. The generator validates category use",
+    "and keeps this guide and the README in sync.",
+    "",
+  );
+  return lines.join("\n");
+}
+
 function main() {
   const check = process.argv.includes("--check");
+  const categories = loadJson(CATEGORIES_JSON);
   const vaults = loadJson(VAULTS_JSON);
   const resources = loadJson(RESOURCES_JSON);
   const showcases = loadJson(SHOWCASES_JSON);
-  validateVaults(vaults);
-  validateResources(resources);
+  validateCategoryDefinitions(categories);
+  const vaultCategoryNames = new Set(categories.vaults.map((category) => category.name));
+  const resourceCategoryNames = new Set(categories.resources.map((category) => category.name));
+  validateVaults(vaults, vaultCategoryNames);
+  validateResources(resources, resourceCategoryNames);
   validateShowcases(showcases);
-  const vaultGrouped = group(vaults, VAULT_CATEGORY_ORDER);
-  const resGrouped = group(resources, RESOURCE_CATEGORY_ORDER);
+  const vaultGrouped = group(vaults, categories.vaults.map((category) => category.name));
+  const resGrouped = group(resources, categories.resources.map((category) => category.name));
 
   let src = readFileSync(README, "utf8");
   const totalVaults = vaultGrouped.reduce((n, [, l]) => n + l.length, 0);
   const totalRes = resGrouped.reduce((n, [, l]) => n + l.length, 0);
 
-  if (!/## Vaults and websites grouped by topic \(\d+\)/.test(src)) {
+  const vaultHeading = /## Vaults and websites grouped by topic(?: or purpose)? \(\d+\)/;
+  if (!vaultHeading.test(src)) {
     throw new Error("vault heading not found");
   }
-  src = src.replace(
-    /## Vaults and websites grouped by topic \(\d+\)/,
-    `## Vaults and websites grouped by topic (${totalVaults})`,
-  );
+  src = src.replace(vaultHeading, `## Vaults and websites grouped by topic or purpose (${totalVaults})`);
 
   const vaultBlock = `<!-- VAULTS:START -->\n${renderVaultTable(vaultGrouped)}\n<!-- VAULTS:END -->`;
   // Matches the generated markers, plus the pre-migration HTML table as a
@@ -283,16 +348,22 @@ function main() {
   src = src.replace(/## List of Showcases \(\d+\)[\s\S]*?(?=\nFeel free to explore)/, showcaseBlock);
   if (!src.endsWith("\n")) src += "\n";
 
+  const taxonomy = renderTaxonomy(categories);
   if (check) {
-    const current = readFileSync(README, "utf8");
-    if (current !== src) {
-      console.error("README.md is out of date; run: node scripts/build-readme.mjs");
-      process.exit(1);
+    const stale = [];
+    if (readFileSync(README, "utf8") !== src) stale.push("README.md");
+    if (readFileSync(TAXONOMY, "utf8") !== taxonomy) stale.push("TAXONOMY.md");
+    if (stale.length) {
+      console.error(`${stale.join(" and ")} ${stale.length === 1 ? "is" : "are"} out of date; run: node scripts/build-readme.mjs`);
+      process.exitCode = 1;
+      return;
     }
-    console.log("README.md is up to date.");
+    console.log("README.md and TAXONOMY.md are up to date.");
   } else {
     writeFileSync(README, src, "utf8");
+    writeFileSync(TAXONOMY, taxonomy, "utf8");
     console.log(`wrote README.md: ${totalVaults} vaults, ${totalRes} resources, ${showcases.length} showcases`);
+    console.log("wrote TAXONOMY.md");
   }
 }
 

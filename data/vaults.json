@@ -1,142 +1,22 @@
 [
   {
-    "category": "Digital Gardens & Publishing",
-    "name": "Alexia Chen notes",
-    "author": "AlexiaChen",
-    "vault": "https://github.com/AlexiaChen/my-notes",
-    "web": null,
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Digital Gardeners",
-    "author": "MaggieAppleton",
-    "vault": "https://github.com/MaggieAppleton/digital-gardeners",
-    "web": null,
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Obsidian Digital Garden",
-    "author": "ThatOtherAndrew",
-    "vault": "https://github.com/ThatOtherAndrew/obsidian-digital-garden",
-    "web": "https://notes.thatother.dev/",
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Obsidian Garden",
-    "author": "sina-salahshour",
-    "vault": "https://github.com/sina-salahshour/obsidian-garden",
-    "web": "https://garden.drhexe.ir",
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Obsidian Templates",
-    "author": "Groepl",
-    "vault": "https://github.com/groepl/Obsidian-Templates",
-    "web": null,
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Obsidian Templates",
-    "author": "Ykerus",
-    "vault": "https://github.com/ykerus/obsidian-templates",
-    "web": null,
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Obsidian Vault Template",
-    "author": "CyanVoxel",
-    "vault": "https://github.com/CyanVoxel/Obsidian-Vault-Template",
-    "web": null,
-    "star": false
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Topobon",
-    "author": "Uroybd",
-    "vault": "https://github.com/uroybd/topobon",
-    "web": "https://hermitage.utsob.me/",
+    "category": "Curated Directories",
+    "name": "Free Media Heck Yeah",
+    "author": "nbats",
+    "vault": "https://github.com/fmhy/edit",
+    "web": "https://fmhy.net/",
     "star": true
   },
   {
-    "category": "Documentation & Knowledge",
-    "name": "Blue Book",
-    "author": "lyz-code",
-    "vault": "https://github.com/lyz-code/blue-book",
-    "web": "https://lyz-code.github.io/blue-book/",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Cheatsheets",
-    "author": "Rico Sta. Cruz",
-    "vault": "https://github.com/rstacruz/cheatsheets",
-    "web": "https://devhints.io/",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "DashboardPlusPlus",
-    "author": "TfTHacker",
-    "vault": "https://github.com/TfTHacker/DashboardPlusPlus",
-    "web": "https://tfthacker.com/DashboardPlusPLus",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Digital Garden Docs",
-    "author": "oleeskild",
-    "vault": "https://github.com/oleeskild/digitalgardendocs",
-    "web": "https://dg-docs.ole.dev/",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Gatekeeperwiki Game",
-    "author": "Gravity Lagoon",
-    "vault": "https://github.com/Mondrethos/gatekeeperwiki",
-    "web": "https://www.gatekeeper.wiki/",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Kepano Obsidian",
-    "author": null,
-    "vault": "https://github.com/kepano/kepano-obsidian",
-    "web": "https://stephango.com/vault",
+    "category": "Curated Directories",
+    "name": "Interneto",
+    "author": "David7ce",
+    "vault": "https://github.com/interneto/interneto.github.io",
+    "web": "https://interneto.github.io/",
     "star": true
   },
   {
-    "category": "Documentation & Knowledge",
-    "name": "Obsidian Hub",
-    "author": null,
-    "vault": "https://github.com/obsidian-community/obsidian-hub",
-    "web": "https://publish.obsidian.md/hub/00+-+Start+here",
-    "star": true
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Obsidian Icewind",
-    "author": "Shervinsahba",
-    "vault": "https://github.com/shervinsahba/obsidian-icewind",
-    "web": "https://icewind.quest/",
-    "star": true
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Obsidian Tasks",
-    "author": "Obsidian Tasks Group",
-    "vault": "https://github.com/obsidian-tasks-group/obsidian-tasks",
-    "web": "https://publish.obsidian.md/tasks/",
-    "star": false
-  },
-  {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Based.cooking",
     "author": "Luke Smith",
     "vault": "https://github.com/lukesmithxyz/based.cooking",
@@ -144,7 +24,7 @@
     "star": true
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Chowdown",
     "author": "Clarklab",
     "vault": "https://github.com/clarklab/chowdown",
@@ -152,7 +32,7 @@
     "star": false
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Cookbook",
     "author": "Douglaslassance",
     "vault": "https://github.com/douglaslassance/cookbook",
@@ -160,7 +40,7 @@
     "star": false
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "DevCookbook",
     "author": "Microsoft",
     "vault": "https://github.com/microsoft/DevCookbook/",
@@ -168,7 +48,7 @@
     "star": false
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Giallozafferano (Recipe site)",
     "author": null,
     "vault": null,
@@ -176,7 +56,7 @@
     "star": false
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Grimgrains",
     "author": "Hundredrabbits",
     "vault": "https://github.com/hundredrabbits/Grimgrains",
@@ -184,7 +64,7 @@
     "star": true
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "HowToCook (Chinese)",
     "author": "Anduin2017",
     "vault": "https://github.com/Anduin2017/HowToCook",
@@ -192,7 +72,7 @@
     "star": false
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Recetas Cocina (Dataset)",
     "author": "Frorozcol",
     "vault": "https://huggingface.co/datasets/Frorozcol/recetas-cocina",
@@ -200,7 +80,7 @@
     "star": true
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Recetas de Cocina",
     "author": "Obsidian PKM Vault",
     "vault": "https://github.com/obsidian-pkm-vault/recetas-cocina",
@@ -208,7 +88,7 @@
     "star": true
   },
   {
-    "category": "Food & Lifestyle",
+    "category": "Food & Cooking",
     "name": "Recipes as JSON",
     "author": "Dpapathanasiou",
     "vault": "https://github.com/dpapathanasiou/recipes",
@@ -216,7 +96,7 @@
     "star": true
   },
   {
-    "category": "Knowledge Bases & Wiki Vaults",
+    "category": "Knowledge & Reference",
     "name": "BJJGraph",
     "author": "diogoseca",
     "vault": "https://github.com/diogoseca/bjjgraph/tree/main/content",
@@ -224,7 +104,31 @@
     "star": false
   },
   {
-    "category": "Knowledge Bases & Wiki Vaults",
+    "category": "Knowledge & Reference",
+    "name": "Blue Book",
+    "author": "lyz-code",
+    "vault": "https://github.com/lyz-code/blue-book",
+    "web": "https://lyz-code.github.io/blue-book/",
+    "star": false
+  },
+  {
+    "category": "Knowledge & Reference",
+    "name": "Cheatsheets",
+    "author": "Rico Sta. Cruz",
+    "vault": "https://github.com/rstacruz/cheatsheets",
+    "web": "https://devhints.io/",
+    "star": false
+  },
+  {
+    "category": "Knowledge & Reference",
+    "name": "Gatekeeperwiki Game",
+    "author": "Gravity Lagoon",
+    "vault": "https://github.com/Mondrethos/gatekeeperwiki",
+    "web": "https://www.gatekeeper.wiki/",
+    "star": false
+  },
+  {
+    "category": "Knowledge & Reference",
     "name": "KaaS",
     "author": "Jimbrig",
     "vault": "https://github.com/jimbrig/KaaS",
@@ -232,7 +136,7 @@
     "star": false
   },
   {
-    "category": "Knowledge Bases & Wiki Vaults",
+    "category": "Knowledge & Reference",
     "name": "Knowledge",
     "author": "Nikitavoloboev",
     "vault": "https://github.com/nikitavoloboev/knowledge",
@@ -240,7 +144,23 @@
     "star": false
   },
   {
-    "category": "Knowledge Bases & Wiki Vaults",
+    "category": "Knowledge & Reference",
+    "name": "Obsidian Hub",
+    "author": null,
+    "vault": "https://github.com/obsidian-community/obsidian-hub",
+    "web": "https://publish.obsidian.md/hub/00+-+Start+here",
+    "star": true
+  },
+  {
+    "category": "Knowledge & Reference",
+    "name": "Obsidian Icewind",
+    "author": "Shervinsahba",
+    "vault": "https://github.com/shervinsahba/obsidian-icewind",
+    "web": "https://icewind.quest/",
+    "star": true
+  },
+  {
+    "category": "Knowledge & Reference",
     "name": "Ontology Engineering Curriculum",
     "author": "fabio-rovai",
     "vault": "https://github.com/fabio-rovai/ontology-curriculum/tree/main/vault",
@@ -248,7 +168,7 @@
     "star": false
   },
   {
-    "category": "Knowledge Bases & Wiki Vaults",
+    "category": "Knowledge & Reference",
     "name": "Podcast Wiki",
     "author": "HagaiHen",
     "vault": "https://github.com/HagaiHen/podcast-wiki",
@@ -256,35 +176,19 @@
     "star": false
   },
   {
-    "category": "Knowledge Bases & Wiki Vaults",
+    "category": "Knowledge & Reference",
+    "name": "Wikiterra Vault",
+    "author": null,
+    "vault": "https://github.com/Wikiterra/wikiterra-vault",
+    "web": "https://wikiterra.github.io/",
+    "star": false
+  },
+  {
+    "category": "Knowledge & Reference",
     "name": "Yangming Mind OS",
     "author": "sunhaoyu-sawma",
     "vault": "https://github.com/sunhaoyu-sawma/Yangming-Mind-OS",
     "web": "https://sunhaoyu-sawma.github.io/Yangming-Mind-OS/",
-    "star": false
-  },
-  {
-    "category": "Personal Websites & Indie Web",
-    "name": "Devine Lu Linvega (oscean)",
-    "author": null,
-    "vault": "https://github.com/XXIIVV/oscean",
-    "web": "https://wiki.xxiivv.com/site/home.html",
-    "star": false
-  },
-  {
-    "category": "Personal Websites & Indie Web",
-    "name": "Hundred Rabbits site",
-    "author": null,
-    "vault": "https://github.com/hundredrabbits/100r.co",
-    "web": "https://100r.co/site/home.html",
-    "star": false
-  },
-  {
-    "category": "Personal Websites & Indie Web",
-    "name": "Rekka Bellum (kokorobot)",
-    "author": null,
-    "vault": "https://github.com/rekkabell/kokorobot",
-    "web": "https://kokorobot.ca/site/",
     "star": false
   },
   {
@@ -369,6 +273,14 @@
   },
   {
     "category": "Programming & Software",
+    "name": "Obsidian Tasks",
+    "author": "Obsidian Tasks Group",
+    "vault": "https://github.com/obsidian-tasks-group/obsidian-tasks",
+    "web": "https://publish.obsidian.md/tasks/",
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
     "name": "OSSU Computer Science",
     "author": null,
     "vault": "https://github.com/ossu/computer-science",
@@ -400,6 +312,86 @@
     "star": false
   },
   {
+    "category": "Publishing & Personal Sites",
+    "name": "Alexia Chen notes",
+    "author": "AlexiaChen",
+    "vault": "https://github.com/AlexiaChen/my-notes",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Devine Lu Linvega (oscean)",
+    "author": null,
+    "vault": "https://github.com/XXIIVV/oscean",
+    "web": "https://wiki.xxiivv.com/site/home.html",
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Digital Gardeners",
+    "author": "MaggieAppleton",
+    "vault": "https://github.com/MaggieAppleton/digital-gardeners",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Hundred Rabbits site",
+    "author": null,
+    "vault": "https://github.com/hundredrabbits/100r.co",
+    "web": "https://100r.co/site/home.html",
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Obsidian Digital Garden",
+    "author": "ThatOtherAndrew",
+    "vault": "https://github.com/ThatOtherAndrew/obsidian-digital-garden",
+    "web": "https://notes.thatother.dev/",
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Obsidian Garden",
+    "author": "sina-salahshour",
+    "vault": "https://github.com/sina-salahshour/obsidian-garden",
+    "web": "https://garden.drhexe.ir",
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Rekka Bellum (kokorobot)",
+    "author": null,
+    "vault": "https://github.com/rekkabell/kokorobot",
+    "web": "https://kokorobot.ca/site/",
+    "star": false
+  },
+  {
+    "category": "Publishing & Personal Sites",
+    "name": "Topobon",
+    "author": "Uroybd",
+    "vault": "https://github.com/uroybd/topobon",
+    "web": "https://hermitage.utsob.me/",
+    "star": true
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "DashboardPlusPlus",
+    "author": "TfTHacker",
+    "vault": "https://github.com/TfTHacker/DashboardPlusPlus",
+    "web": "https://tfthacker.com/DashboardPlusPLus",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Digital Garden Docs",
+    "author": "oleeskild",
+    "vault": "https://github.com/oleeskild/digitalgardendocs",
+    "web": "https://dg-docs.ole.dev/",
+    "star": false
+  },
+  {
     "category": "Sample Vaults & Templates",
     "name": "FridayOS 1.0",
     "author": "Robinson AI Lab / Owen Teng",
@@ -417,9 +409,41 @@
   },
   {
     "category": "Sample Vaults & Templates",
+    "name": "Kepano Obsidian",
+    "author": null,
+    "vault": "https://github.com/kepano/kepano-obsidian",
+    "web": "https://stephango.com/vault",
+    "star": true
+  },
+  {
+    "category": "Sample Vaults & Templates",
     "name": "Obsidian Consulting Components",
     "author": "Engagement Desk",
     "vault": "https://github.com/engagementdesk/obsidian-consulting-components",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Obsidian Templates",
+    "author": "Groepl",
+    "vault": "https://github.com/groepl/Obsidian-Templates",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Obsidian Templates",
+    "author": "Ykerus",
+    "vault": "https://github.com/ykerus/obsidian-templates",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Obsidian Vault Template",
+    "author": "CyanVoxel",
+    "vault": "https://github.com/CyanVoxel/Obsidian-Vault-Template",
     "web": null,
     "star": false
   },
@@ -454,29 +478,5 @@
     "vault": "https://github.com/latticeworklabs-eng/undercroft",
     "web": null,
     "star": false
-  },
-  {
-    "category": "Science & Research",
-    "name": "Wikiterra Vault",
-    "author": null,
-    "vault": "https://github.com/Wikiterra/wikiterra-vault",
-    "web": "https://wikiterra.github.io/",
-    "star": false
-  },
-  {
-    "category": "Web Directories & Media",
-    "name": "Free Media Heck Yeah",
-    "author": "nbats",
-    "vault": "https://github.com/fmhy/edit",
-    "web": "https://fmhy.net/",
-    "star": true
-  },
-  {
-    "category": "Web Directories & Media",
-    "name": "Interneto",
-    "author": "David7ce",
-    "vault": "https://github.com/interneto/interneto.github.io",
-    "web": "https://interneto.github.io/",
-    "star": true
   }
 ]

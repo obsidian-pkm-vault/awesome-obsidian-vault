@@ -17,14 +17,15 @@ Obsidian vaults and Markdown knowledge bases.
 
 ## Adding a vault
 
-The tables in `README.md` are **generated** — do not edit them by hand.
-`data/vaults.json` is the source of truth and
-`node scripts/build-readme.mjs` renders it into `README.md`.
+The tables in `README.md` and the category guide in `TAXONOMY.md` are
+**generated** — do not edit them by hand. `data/vaults.json` holds vault
+entries; `data/categories.json` is the canonical category list and scope guide.
+`node scripts/build-readme.mjs` renders both generated files.
 
 1. Add an entry to `data/vaults.json`:
    ```json
    {
-     "category": "Documentation & Knowledge",
+     "category": "Knowledge & Reference",
      "name": "Blue Book",
      "author": "lyz-code",
      "vault": "https://github.com/lyz-code/blue-book",
@@ -33,15 +34,17 @@ The tables in `README.md` are **generated** — do not edit them by hand.
    }
    ```
 2. Run `node scripts/build-readme.mjs` (no dependencies, Node 18+) and
-   commit the regenerated `README.md` together with the JSON.
+   commit the regenerated `README.md` and `TAXONOMY.md` together with the JSON.
 3. Open the PR. CI runs the script with `--check` and fails if `README.md`
-   is out of date.
+   or `TAXONOMY.md` is out of date.
 
 Rules:
 
-1. **Category** — reuse an existing category if one fits (see the
-   `Category` column in `README.md` or `TAXONOMY.md`). Sorting within a
-   category is automatic.
+1. **Category** — choose one primary category by the resource's main reader
+   purpose. Use the definitions and boundary guidance in `TAXONOMY.md`; the
+   source list is `data/categories.json`. If no category fits, propose a new
+   category there with a scope and explain which existing entries, if any,
+   should move. Sorting within a category is automatic.
 2. **name / author** — `name` is the vault title, `author` the handle (or
    `null` if there is none). They render as `Name — author` with an em
    dash. No `|` characters.
@@ -94,15 +97,15 @@ the syntax may not be 100% Obsidian-compatible, as mentioned in the README.
 ## Automated checks
 
 - `list-check` (every PR/push): `node scripts/build-readme.mjs --check`
-  verifies `README.md` matches `data/*.json`.
+  verifies `README.md` and `TAXONOMY.md` match `data/*.json`.
 - `link-check` (weekly): checks every link in the repo with
   [lychee](https://github.com/lycheeverse/lychee). Broken links open an issue
   automatically, so please make sure links you add resolve correctly.
 
 ## If CI fails on your PR
 
-- **`README.md` is out of date** — you edited the JSON but didn't
-  regenerate: run `node scripts/build-readme.mjs` and commit the result.
+- **`README.md` or `TAXONOMY.md` is out of date** — you edited the JSON but
+  didn't regenerate: run `node scripts/build-readme.mjs` and commit both.
 - **Validation error naming your entry** — usually an unknown `category`,
   a malformed URL, or a duplicate: fix the JSON and re-run the script.
 - **Broken link** — the URL doesn't resolve: double-check it (or use the
@@ -116,8 +119,8 @@ section layout) than the one your branch started from. Editing `README.md`
 by hand — including fixing up a link after the fact — will not match the
 current format and can't be merged as a plain `git merge`. Rebase onto the
 latest `main`, re-run `node scripts/build-readme.mjs` from there, and commit
-only the regenerated result; never hand-patch `README.md`, even for a
-one-line fix.
+only the regenerated `README.md` and `TAXONOMY.md`; never hand-patch generated
+files, even for a one-line fix.
 
 ## License
 
