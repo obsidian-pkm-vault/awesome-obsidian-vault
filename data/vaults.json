@@ -446,5 +446,13 @@
     "vault": "https://github.com/sina-salahshour/obsidian-garden",
     "web": "https://garden.drhexe.ir",
     "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Personal Knowledge Base Template",
+    "author": "wangshuhui0613",
+    "vault": "https://github.com/wangshuhui0613/keep-the-why",
+    "web": "https://wangshuhui0613.github.io/keep-the-why/",
+    "star": false
   }
 ]
