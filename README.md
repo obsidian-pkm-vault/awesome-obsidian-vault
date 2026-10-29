@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic (58)
+## Vaults and websites grouped by topic (59)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -118,11 +118,12 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="5" class="category-cell">Sample Vaults &amp; Templates</th>
+      <th rowspan="6" class="category-cell">Sample Vaults &amp; Templates</th>
       <td>Ideaverse — LYT (Nick Milo)</td>
       <td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td>
       <td></td>
     </tr>
+    <tr><td>Obsidian Consulting Components — Engagement Desk</td><td><a href="https://github.com/engagementdesk/obsidian-consulting-components">vault</a></td><td></td></tr>
     <tr><td>Personal Knowledge Base Template — wangshuhui0613</td><td><a href="https://github.com/wangshuhui0613/keep-the-why">vault</a> / <a href="https://wangshuhui0613.github.io/keep-the-why/">web</a></td><td></td></tr>
     <tr><td>Second Brain Starter — secondbrainstarter</td><td><a href="https://github.com/secondbrainstarter/second-brain-starter">vault</a> / <a href="https://secondbrainstarter.github.io/">web</a></td><td></td></tr>
     <tr><td>Self-Knowledge Vault — Tanudai</td><td><a href="https://github.com/tanudai/obsidian-self-knowledge-vault">vault</a> / <a href="https://astrodai.in/obsidian/">web</a></td><td></td></tr>

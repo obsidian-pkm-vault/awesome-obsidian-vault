@@ -462,5 +462,13 @@
     "vault": "https://github.com/diogoseca/bjjgraph/tree/main/content",
     "web": "https://bjjgraph.org/",
     "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Obsidian Consulting Components",
+    "author": "Engagement Desk",
+    "vault": "https://github.com/engagementdesk/obsidian-consulting-components",
+    "web": null,
+    "star": false
   }
 ]
