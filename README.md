@@ -46,9 +46,9 @@ A curated list of awesome resources, templates, guides for developers, digital g
       <td><a href="https://github.com/lyz-code/blue-book">vault</a> / <a href="https://lyz-code.github.io/blue-book/">web</a></td>
       <td></td>
     </tr>
+    <tr><td>Cheatsheets — Rico Sta. Cruz</td><td><a href="https://github.com/rstacruz/cheatsheets">vault</a> / <a href="https://devhints.io/">web</a></td><td></td></tr>
     <tr><td>DashboardPlusPlus — TfTHacker</td><td><a href="https://github.com/TfTHacker/DashboardPlusPlus">vault</a> / <a href="https://tfthacker.com/DashboardPlusPLus">web</a></td><td></td></tr>
     <tr><td>Digital Garden Docs — oleeskild</td><td><a href="https://github.com/oleeskild/digitalgardendocs">vault</a> / <a href="https://dg-docs.ole.dev/">web</a></td><td></td></tr>
-    <tr><td>Documentation — Rico Sta. Cruz</td><td><a href="https://github.com/rstacruz/cheatsheets/tree/master#documentation">vault</a> / <a href="https://devhints.io/">web</a></td><td></td></tr>
     <tr><td>Gatekeeperwiki Game — Gravity Lagoon</td><td><a href="https://github.com/Mondrethos/gatekeeperwiki">vault</a> / <a href="https://www.gatekeeper.wiki/">web</a></td><td></td></tr>
     <tr><td>Kepano Obsidian</td><td><a href="https://github.com/kepano/kepano-obsidian">vault</a> / <a href="https://stephango.com/vault">web</a></td><td>✨</td></tr>
     <tr><td>Obsidian Hub</td><td><a href="https://github.com/obsidian-community/obsidian-hub">vault</a> / <a href="https://publish.obsidian.md/hub/00+-+Start+here">web</a></td><td>✨</td></tr>
@@ -111,7 +111,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
     <tr><td>Jailbreaks — togg53192-cmd</td><td><a href="https://github.com/togg53192-cmd/jailbreaks">vault</a></td><td></td></tr>
     <tr><td>JavaScript Info (EN)</td><td><a href="https://github.com/javascript-tutorial/en.javascript.info">vault</a> / <a href="https://javascript.info/">web</a></td><td></td></tr>
     <tr><td>Learning Notes — Keyvanakbary</td><td><a href="https://github.com/keyvanakbary/learning-notes">vault</a> / <a href="https://keyvanakbary.github.io/learning-notes/">web</a></td><td></td></tr>
-    <tr><td>OSSU Computer Science</td><td><a href="https://github.com/ossu/computer-science">vault</a></td><td></td></tr>
+    <tr><td>OSSU Computer Science</td><td><a href="https://github.com/ossu/computer-science">vault</a> / <a href="https://cs.ossu.dev/">web</a></td><td></td></tr>
     <tr><td>Skills — Vercel labs</td><td><a href="https://github.com/vercel-labs/skills">vault</a> / <a href="https://www.skills.sh/">web</a></td><td></td></tr>
     <tr><td>SQL Docs — MicrosoftDocs</td><td><a href="https://github.com/MicrosoftDocs/sql-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver17">web</a></td><td></td></tr>
     <tr><td>System Design 101 — ByteByteGoHq</td><td><a href="https://github.com/ByteByteGoHq/system-design-101">vault</a> / <a href="https://bytebytego.com/guides/">web</a></td><td></td></tr>

@@ -81,9 +81,9 @@
   },
   {
     "category": "Documentation & Knowledge",
-    "name": "Documentation",
+    "name": "Cheatsheets",
     "author": "Rico Sta. Cruz",
-    "vault": "https://github.com/rstacruz/cheatsheets/tree/master#documentation",
+    "vault": "https://github.com/rstacruz/cheatsheets",
     "web": "https://devhints.io/",
     "star": false
   },
@@ -356,7 +356,7 @@
     "name": "OSSU Computer Science",
     "author": null,
     "vault": "https://github.com/ossu/computer-science",
-    "web": null,
+    "web": "https://cs.ossu.dev/",
     "star": false
   },
   {
