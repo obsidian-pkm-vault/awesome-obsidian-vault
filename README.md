@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic (55)
+## Vaults and websites grouped by topic (56)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -26,13 +26,14 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </thead>
   <tbody>
     <tr class="section-row">
-      <th rowspan="7" class="category-cell">Digital Gardens &amp; Publishing</th>
+      <th rowspan="8" class="category-cell">Digital Gardens &amp; Publishing</th>
       <td>Alexia Chen notes — AlexiaChen</td>
       <td><a href="https://github.com/AlexiaChen/my-notes">vault</a></td>
       <td></td>
     </tr>
     <tr><td>Digital Gardeners — MaggieAppleton</td><td><a href="https://github.com/MaggieAppleton/digital-gardeners">vault</a></td><td></td></tr>
     <tr><td>Obsidian Digital Garden — ThatOtherAndrew</td><td><a href="https://github.com/ThatOtherAndrew/obsidian-digital-garden">vault</a> / <a href="https://notes.thatother.dev/">web</a></td><td></td></tr>
+    <tr><td>Obsidian Garden — sina-salahshour</td><td><a href="https://github.com/sina-salahshour/obsidian-garden">vault</a> / <a href="https://garden.drhexe.ir">web</a></td><td></td></tr>
     <tr><td>Obsidian Templates — Groepl</td><td><a href="https://github.com/groepl/Obsidian-Templates">vault</a></td><td></td></tr>
     <tr><td>Obsidian Templates — Ykerus</td><td><a href="https://github.com/ykerus/obsidian-templates">vault</a></td><td></td></tr>
     <tr><td>Obsidian Vault Template — CyanVoxel</td><td><a href="https://github.com/CyanVoxel/Obsidian-Vault-Template">vault</a></td><td></td></tr>
