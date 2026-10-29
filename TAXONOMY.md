@@ -15,24 +15,24 @@ Each entry gets exactly one primary category. Apply these rules in order:
 
 The `vault` and `web` fields describe delivery links, not category facets.
 
-| Category | Use it for |
-|---|---|
-| Curated Directories | Link collections and directories whose main value is helping readers find external sites or media. |
-| Food & Cooking | Recipe collections, cookbooks, meal-planning material, and other cooking-focused resources. |
-| Knowledge & Reference | Subject knowledge bases, wikis, documentation, reference works, and research collections, except resources whose primary purpose fits a more specific subject or format category. |
-| Programming & Software | Programming and computer-science learning, software documentation, developer tools, and computing-focused vaults. |
-| Publishing & Personal Sites | Personal websites, digital gardens, and published vaults whose main purpose is sharing the author's own notes or work, not providing a reusable template for others. |
-| Sample Vaults & Templates | Reusable starter vaults, templates, example systems, and note structures intended to be copied or adapted. |
+| Category                    | Use it for                                                                                                                                                                        |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Curated Directories         | Link collections and directories whose main value is helping readers find external sites or media.                                                                                |
+| Food & Cooking              | Recipe collections, cookbooks, meal-planning material, and other cooking-focused resources.                                                                                       |
+| Knowledge & Reference       | Subject knowledge bases, wikis, documentation, reference works, and research collections, except resources whose primary purpose fits a more specific subject or format category. |
+| Programming & Software      | Programming and computer-science learning, software documentation, developer tools, and computing-focused vaults.                                                                 |
+| Publishing & Personal Sites | Personal websites, digital gardens, and published vaults whose main purpose is sharing the author's own notes or work, not providing a reusable template for others.              |
+| Sample Vaults & Templates   | Reusable starter vaults, templates, example systems, and note structures intended to be copied or adapted.                                                                        |
 
 ## Resources
 
 These categories apply to the separate `Resources` section, not to vault entries.
 
-| Category | Use it for |
-|---|---|
-| Cheat Sheets and Miscellaneous | Small standalone reference aids, study materials, or useful resources that do not form a larger subject collection. |
-| Dictionaries and Language Resources | Dictionaries, word lists, and other language-reference resources. |
-| Encyclopedia Resources | Large general-knowledge collections, encyclopedias, and offline knowledge libraries. |
+| Category                            | Use it for                                                                                                          |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Cheat Sheets and Miscellaneous      | Small standalone reference aids, study materials, or useful resources that do not form a larger subject collection. |
+| Dictionaries and Language Resources | Dictionaries, word lists, and other language-reference resources.                                                   |
+| Encyclopedia Resources              | Large general-knowledge collections, encyclopedias, and offline knowledge libraries.                                |
 
 ## Adding or changing a category
 

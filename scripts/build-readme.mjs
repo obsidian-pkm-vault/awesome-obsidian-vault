@@ -245,6 +245,20 @@ function markdownCell(text) {
   return String(text).replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 }
 
+/**
+ * Render a GitHub-flavored Markdown table with columns padded to their
+ * widest cell, matching standard Markdown-formatter output byte-for-byte —
+ * otherwise a formatter re-pads this generated file on every save, fighting
+ * the generator (e.g. editor format-on-save vs. plain script output).
+ */
+function renderMarkdownTable(headers, rows) {
+  const widths = headers.map((h, i) => Math.max(h.length, ...rows.map((r) => r[i].length)));
+  const renderRow = (cells) => `| ${cells.map((c, i) => c.padEnd(widths[i])).join(" | ")} |`;
+  return [renderRow(headers), `|${widths.map((w) => "-".repeat(w + 2)).join("|")}|`, ...rows.map(renderRow)].join(
+    "\n",
+  );
+}
+
 function renderTaxonomy(categories) {
   const lines = [
     "# Taxonomy",
@@ -262,24 +276,22 @@ function renderTaxonomy(categories) {
     "",
     "The `vault` and `web` fields describe delivery links, not category facets.",
     "",
-    "| Category | Use it for |",
-    "|---|---|",
+    renderMarkdownTable(
+      ["Category", "Use it for"],
+      categories.vaults.map((c) => [markdownCell(c.name), markdownCell(c.scope)]),
+    ),
   );
-  for (const category of categories.vaults) {
-    lines.push(`| ${markdownCell(category.name)} | ${markdownCell(category.scope)} |`);
-  }
   lines.push(
     "",
     "## Resources",
     "",
     "These categories apply to the separate `Resources` section, not to vault entries.",
     "",
-    "| Category | Use it for |",
-    "|---|---|",
+    renderMarkdownTable(
+      ["Category", "Use it for"],
+      categories.resources.map((c) => [markdownCell(c.name), markdownCell(c.scope)]),
+    ),
   );
-  for (const category of categories.resources) {
-    lines.push(`| ${markdownCell(category.name)} | ${markdownCell(category.scope)} |`);
-  }
   lines.push(
     "",
     "## Adding or changing a category",

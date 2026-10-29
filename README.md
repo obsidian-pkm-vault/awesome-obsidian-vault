@@ -131,7 +131,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
 
 ---
 
-## Resources (9)
+## Resources (8)
 
 <!-- RESOURCES:START -->
 <table class="vault-table">
@@ -144,11 +144,10 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </thead>
   <tbody>
     <tr class="section-row">
-      <th rowspan="2" class="category-cell">Cheat Sheets and Miscellaneous</th>
+      <th rowspan="1" class="category-cell">Cheat Sheets and Miscellaneous</th>
       <td>Anki Shared Decks</td>
       <td><a href="https://ankiweb.net/shared/decks/">vault</a></td>
     </tr>
-    <tr><td>Cheatsheets from rstacruz</td><td><a href="https://github.com/rstacruz/cheatsheets">vault</a></td></tr>
   </tbody>
   <tbody>
     <tr class="section-row">

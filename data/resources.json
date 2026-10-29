@@ -10,16 +10,6 @@
     ]
   },
   {
-    "category": "Cheat Sheets and Miscellaneous",
-    "name": "Cheatsheets from rstacruz",
-    "links": [
-      {
-        "label": "vault",
-        "url": "https://github.com/rstacruz/cheatsheets"
-      }
-    ]
-  },
-  {
     "category": "Dictionaries and Language Resources",
     "name": "Wiktionary and Wikibooks from itkach",
     "links": [
