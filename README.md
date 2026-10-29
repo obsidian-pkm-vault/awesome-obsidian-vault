@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic (54)
+## Vaults and websites grouped by topic (55)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -95,7 +95,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="13" class="category-cell">Programming &amp; Software</th>
+      <th rowspan="14" class="category-cell">Programming &amp; Software</th>
       <td>Awesome Agent Skills — VoltAgent</td>
       <td><a href="https://github.com/VoltAgent/awesome-agent-skills">vault</a> / <a href="https://officialskills.sh/">web</a></td>
       <td></td>
@@ -106,6 +106,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
     <tr><td>CyberChef — GCHQ</td><td><a href="https://github.com/gchq/CyberChef">vault</a> / <a href="https://gchq.github.io/CyberChef/">web</a></td><td></td></tr>
     <tr><td>Data Engineering Wiki</td><td><a href="https://github.com/data-engineering-community/data-engineering-wiki">vault</a> / <a href="https://dataengineering.wiki/Index">web</a></td><td></td></tr>
     <tr><td>Dotnet API Docs</td><td><a href="https://github.com/dotnet/dotnet-api-docs">vault</a> / <a href="https://learn.microsoft.com/en-us/dotnet/api/">web</a></td><td></td></tr>
+    <tr><td>Jailbreaks — togg53192-cmd</td><td><a href="https://github.com/togg53192-cmd/jailbreaks">vault</a></td><td></td></tr>
     <tr><td>JavaScript Info (EN)</td><td><a href="https://github.com/javascript-tutorial/en.javascript.info">vault</a> / <a href="https://javascript.info/">web</a></td><td></td></tr>
     <tr><td>Learning Notes — Keyvanakbary</td><td><a href="https://github.com/keyvanakbary/learning-notes">vault</a> / <a href="https://keyvanakbary.github.io/learning-notes/">web</a></td><td></td></tr>
     <tr><td>OSSU Computer Science</td><td><a href="https://github.com/ossu/computer-science">vault</a></td><td></td></tr>

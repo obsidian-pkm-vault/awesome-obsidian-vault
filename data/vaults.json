@@ -329,6 +329,14 @@
   },
   {
     "category": "Programming & Software",
+    "name": "Jailbreaks",
+    "author": "togg53192-cmd",
+    "vault": "https://github.com/togg53192-cmd/jailbreaks",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Programming & Software",
     "name": "JavaScript Info (EN)",
     "author": null,
     "vault": "https://github.com/javascript-tutorial/en.javascript.info",
