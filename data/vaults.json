@@ -454,5 +454,13 @@
     "vault": "https://github.com/wangshuhui0613/keep-the-why",
     "web": "https://wangshuhui0613.github.io/keep-the-why/",
     "star": false
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "BJJGraph",
+    "author": "diogoseca",
+    "vault": "https://github.com/diogoseca/bjjgraph/tree/main/content",
+    "web": "https://bjjgraph.org/",
+    "star": false
   }
 ]
