@@ -108,6 +108,17 @@ the syntax may not be 100% Obsidian-compatible, as mentioned in the README.
 - **Broken link** — the URL doesn't resolve: double-check it (or use the
   canonical source).
 
+## If your branch has gone stale
+
+If your fork sat around for a while before you opened the PR, `README.md` on
+`main` may have moved on to a newer generated format (comment markers,
+section layout) than the one your branch started from. Editing `README.md`
+by hand — including fixing up a link after the fact — will not match the
+current format and can't be merged as a plain `git merge`. Rebase onto the
+latest `main`, re-run `node scripts/build-readme.mjs` from there, and commit
+only the regenerated result; never hand-patch `README.md`, even for a
+one-line fix.
+
 ## License
 
 By contributing, you agree that your contributions are dedicated to the public
