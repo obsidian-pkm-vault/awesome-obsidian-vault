@@ -25,6 +25,14 @@
   },
   {
     "category": "Digital Gardens & Publishing",
+    "name": "Obsidian Garden",
+    "author": "sina-salahshour",
+    "vault": "https://github.com/sina-salahshour/obsidian-garden",
+    "web": "https://garden.drhexe.ir",
+    "star": false
+  },
+  {
+    "category": "Digital Gardens & Publishing",
     "name": "Obsidian Templates",
     "author": "Groepl",
     "vault": "https://github.com/groepl/Obsidian-Templates",
@@ -65,6 +73,14 @@
   },
   {
     "category": "Documentation & Knowledge",
+    "name": "Cheatsheets",
+    "author": "Rico Sta. Cruz",
+    "vault": "https://github.com/rstacruz/cheatsheets",
+    "web": "https://devhints.io/",
+    "star": false
+  },
+  {
+    "category": "Documentation & Knowledge",
     "name": "DashboardPlusPlus",
     "author": "TfTHacker",
     "vault": "https://github.com/TfTHacker/DashboardPlusPlus",
@@ -77,14 +93,6 @@
     "author": "oleeskild",
     "vault": "https://github.com/oleeskild/digitalgardendocs",
     "web": "https://dg-docs.ole.dev/",
-    "star": false
-  },
-  {
-    "category": "Documentation & Knowledge",
-    "name": "Cheatsheets",
-    "author": "Rico Sta. Cruz",
-    "vault": "https://github.com/rstacruz/cheatsheets",
-    "web": "https://devhints.io/",
     "star": false
   },
   {
@@ -206,6 +214,14 @@
     "vault": "https://github.com/dpapathanasiou/recipes",
     "web": null,
     "star": true
+  },
+  {
+    "category": "Knowledge Bases & Wiki Vaults",
+    "name": "BJJGraph",
+    "author": "diogoseca",
+    "vault": "https://github.com/diogoseca/bjjgraph/tree/main/content",
+    "web": "https://bjjgraph.org/",
+    "star": false
   },
   {
     "category": "Knowledge Bases & Wiki Vaults",
@@ -385,10 +401,34 @@
   },
   {
     "category": "Sample Vaults & Templates",
+    "name": "FridayOS 1.0",
+    "author": "Robinson AI Lab / Owen Teng",
+    "vault": "https://github.com/Robinson-AI-Lab/FridayOS1.0",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
     "name": "Ideaverse",
     "author": "LYT (Nick Milo)",
     "vault": null,
     "web": "https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse",
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Obsidian Consulting Components",
+    "author": "Engagement Desk",
+    "vault": "https://github.com/engagementdesk/obsidian-consulting-components",
+    "web": null,
+    "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Personal Knowledge Base Template",
+    "author": "wangshuhui0613",
+    "vault": "https://github.com/wangshuhui0613/keep-the-why",
+    "web": "https://wangshuhui0613.github.io/keep-the-why/",
     "star": false
   },
   {
@@ -438,45 +478,5 @@
     "vault": "https://github.com/interneto/interneto.github.io",
     "web": "https://interneto.github.io/",
     "star": true
-  },
-  {
-    "category": "Digital Gardens & Publishing",
-    "name": "Obsidian Garden",
-    "author": "sina-salahshour",
-    "vault": "https://github.com/sina-salahshour/obsidian-garden",
-    "web": "https://garden.drhexe.ir",
-    "star": false
-  },
-  {
-    "category": "Sample Vaults & Templates",
-    "name": "Personal Knowledge Base Template",
-    "author": "wangshuhui0613",
-    "vault": "https://github.com/wangshuhui0613/keep-the-why",
-    "web": "https://wangshuhui0613.github.io/keep-the-why/",
-    "star": false
-  },
-  {
-    "category": "Knowledge Bases & Wiki Vaults",
-    "name": "BJJGraph",
-    "author": "diogoseca",
-    "vault": "https://github.com/diogoseca/bjjgraph/tree/main/content",
-    "web": "https://bjjgraph.org/",
-    "star": false
-  },
-  {
-    "category": "Sample Vaults & Templates",
-    "name": "Obsidian Consulting Components",
-    "author": "Engagement Desk",
-    "vault": "https://github.com/engagementdesk/obsidian-consulting-components",
-    "web": null,
-    "star": false
-  },
-  {
-    "category": "Sample Vaults & Templates",
-    "name": "FridayOS 1.0",
-    "author": "Robinson AI Lab / Owen Teng",
-    "vault": "https://github.com/Robinson-AI-Lab/FridayOS1.0",
-    "web": null,
-    "star": false
   }
 ]
