@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic or purpose (60)
+## Vaults and websites grouped by topic or purpose (61)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -108,7 +108,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="13" class="category-cell">Sample Vaults &amp; Templates</th>
+      <th rowspan="14" class="category-cell">Sample Vaults &amp; Templates</th>
       <td>DashboardPlusPlus — TfTHacker</td>
       <td><a href="https://github.com/TfTHacker/DashboardPlusPlus">vault</a> / <a href="https://tfthacker.com/DashboardPlusPLus">web</a></td>
       <td></td>
@@ -125,6 +125,7 @@ A curated list of awesome resources, templates, guides for developers, digital g
     <tr><td>Second Brain Starter — secondbrainstarter</td><td><a href="https://github.com/secondbrainstarter/second-brain-starter">vault</a> / <a href="https://secondbrainstarter.github.io/">web</a></td><td></td></tr>
     <tr><td>Self-Knowledge Vault — Tanudai</td><td><a href="https://github.com/tanudai/obsidian-self-knowledge-vault">vault</a> / <a href="https://astrodai.in/obsidian/">web</a></td><td></td></tr>
     <tr><td>Undercroft — Latticework Labs</td><td><a href="https://github.com/latticeworklabs-eng/undercroft">vault</a></td><td></td></tr>
+    <tr><td>Vault of Loci — erikunha</td><td><a href="https://github.com/erikunha/vault-of-loci">vault</a></td><td></td></tr>
   </tbody>
 </table>
 <!-- VAULTS:END -->

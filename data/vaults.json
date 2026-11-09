@@ -478,5 +478,13 @@
     "vault": "https://github.com/latticeworklabs-eng/undercroft",
     "web": null,
     "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Vault of Loci",
+    "author": "erikunha",
+    "vault": "https://github.com/erikunha/vault-of-loci",
+    "web": null,
+    "star": false
   }
 ]
