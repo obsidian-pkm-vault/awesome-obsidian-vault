@@ -9,7 +9,7 @@
 
 A curated list of awesome resources, templates, guides for developers, digital gardeners, and learners as an obsidian vault (basically markdown format with assets) that can be downloaded and used offline.
 
-## Vaults and websites grouped by topic or purpose (60)
+## Vaults and websites grouped by topic or purpose (61)
 
 > [!TIP]
 > ✨ marks a standout pick — a particularly polished, complete, or popular vault.
@@ -108,11 +108,12 @@ A curated list of awesome resources, templates, guides for developers, digital g
   </tbody>
   <tbody>
     <tr class="section-row">
-      <th rowspan="13" class="category-cell">Sample Vaults &amp; Templates</th>
-      <td>DashboardPlusPlus — TfTHacker</td>
-      <td><a href="https://github.com/TfTHacker/DashboardPlusPlus">vault</a> / <a href="https://tfthacker.com/DashboardPlusPLus">web</a></td>
+      <th rowspan="14" class="category-cell">Sample Vaults &amp; Templates</th>
+      <td>Cogiforge — Arthuro0103</td>
+      <td><a href="https://github.com/Arthuro0103/cogiforge">vault</a></td>
       <td></td>
     </tr>
+    <tr><td>DashboardPlusPlus — TfTHacker</td><td><a href="https://github.com/TfTHacker/DashboardPlusPlus">vault</a> / <a href="https://tfthacker.com/DashboardPlusPLus">web</a></td><td></td></tr>
     <tr><td>Digital Garden Docs — oleeskild</td><td><a href="https://github.com/oleeskild/digitalgardendocs">vault</a> / <a href="https://dg-docs.ole.dev/">web</a></td><td></td></tr>
     <tr><td>FridayOS 1.0 — Robinson AI Lab / Owen Teng</td><td><a href="https://github.com/Robinson-AI-Lab/FridayOS1.0">vault</a></td><td></td></tr>
     <tr><td>Ideaverse — LYT (Nick Milo)</td><td><a href="https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse">web</a></td><td></td></tr>
