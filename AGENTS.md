@@ -4,8 +4,9 @@ This repository is a curated list of Obsidian-compatible vaults and resources.
 
 ## Before working
 
-- Read [`CONTRIBUTING.md`](CONTRIBUTING.md), [`TAXONOMY.md`](TAXONOMY.md),
-  [`data/README.md`](data/README.md), and `docs/agent/HANDOFF.md`.
+- Read [`CONTRIBUTING.md`](CONTRIBUTING.md), [`TAXONOMY.md`](TAXONOMY.md) and
+  [`data/README.md`](data/README.md). Open work is in the AgenticHub central
+  roadmap; `docs/agent/HANDOFF.md` is archive.
 - Preserve unrelated work and check Git status before editing.
 
 ## Source of truth and generated files
