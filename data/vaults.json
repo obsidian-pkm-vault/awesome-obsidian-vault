@@ -478,5 +478,13 @@
     "vault": "https://github.com/latticeworklabs-eng/undercroft",
     "web": null,
     "star": false
+  },
+  {
+    "category": "Sample Vaults & Templates",
+    "name": "Cogiforge",
+    "author": "Arthuro0103",
+    "vault": "https://github.com/Arthuro0103/cogiforge",
+    "web": null,
+    "star": false
   }
 ]
